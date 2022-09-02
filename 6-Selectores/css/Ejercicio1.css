@@ -1,0 +1,14 @@
+/* cuando se pase por encima del botón:
+    texto --> color blanco
+    fondo --> color verde
+*/
+
+.boton::before{
+    content: 'Pasa por encima';
+}
+
+.boton:hover::before{
+    color: white;
+    background-color: green;
+    content: 'Hecho!';
+}
