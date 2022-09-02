@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.galeria {
+    /* todos los elementos de la galería tienen display tipo flex y son wrap: */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-galeria {
+    /* modificación del ancho de las imágenes: */
+    width: 300px;
+}
