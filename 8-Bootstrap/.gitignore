@@ -1,0 +1,3 @@
+# ignorar todos los documentos .html menos el Ejercicio1.html:
+*.html
+!Ejercicio1.html
