@@ -1,0 +1,181 @@
+/* Importación del font-family de Ubuntu: */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* El enunciado pide que el fondo de la página tenga el color #161717: */
+html {
+    background-color: #161717;
+}
+
+/* Cambio de fuente y color de letra: */
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+    padding: 30px 60px 0px 60px;
+}
+
+h2 {
+    margin-bottom: 26px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.google-button {
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+    background-color: #1A73E8;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.google-button picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.google-button picture img {
+    width: 75%;
+}
+.google-button span {
+    padding: 15px;
+    font-weight: 500;
+}
+.google-button:hover {
+    opacity: 0.75;
+}
+
+.twitter-b {
+    width: 47px;
+    height: 40px;
+    fill: #6E6D7A;
+}
+.twitter-b:hover {
+    fill: #000;
+}
+
+.separators {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+.separators hr {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: visible;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    color: #6e6d7a;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-inputs {
+    width: 416px;
+    display: flex;
+    justify-content: space-between;
+    height: 106px;
+}
+.section-inputs label {
+    width: 200px; /* la mitad de 416px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.section-inputs label span {
+    height: 24px;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+.section-inputs label input {
+    height: 40px;
+    border: 1px solid #454045;
+    font-weight: 400;
+    line-height: 28px;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #212121;
+    appearance: none;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0px;
+}
+label input {
+    height: 40px;
+    border: 1px solid #454045;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #212121;
+}
+label input:hover {
+    background-color: #454045;
+}
+label span {
+    padding: 14px 0px 4px 0px;
+}
+
+.section-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.section-checkbox input {
+    width: 16px;
+    height: 16px;
+}
+.section-checkbox span {
+    padding-top: 0;
+    text-align: justify;
+}
+
+button[type="submit"] {
+    margin-top: 22px;
+    background-color: #EA4C89;
+    width: 168px;
+    height: 40px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+button[type="submit"]:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,8 @@
+# ignorar todos los archivos .css menos el Ejercicio1.css:
+*.css
+!Ejercicio1.css
+# ignorar todos los archivos .html menos el Ejercicio1.html:
+*.html
+!Ejercicio1.html
+# ignorar la carpeta img:
+img
