@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.btn-modern {
+    border: none;
+    background-color: #1A73E8;
+    color: white;
+    height: 36px;
+    padding: 0px 24px;
+    font-family: Hack, monospace;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 5px gray;
+    background-color: #15509e;
+}
