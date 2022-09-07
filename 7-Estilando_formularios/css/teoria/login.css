@@ -1,0 +1,171 @@
+/* página interesante para diseñar alguna web o tomar ideas:
+    dribbble.com */
+
+/* para poder utilizar: "font-family: 'Ubuntu', sans-serif;" */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* { /* cambio de tipo de fuente a toda la web */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin: auto; /* para centrarlo automáticamente */
+    display: flex; /* para poder alinear los elementos */
+    flex-direction: column; /* eje principal: Y */
+    /* elementos centrados en ambos ejes: */
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* para añadir un espacio entre todos los elementos */
+    width: 450px; /* ancho total del contenedor */
+}
+
+.buttons { /* BOTONES DE GOOGLE Y TWITTER */
+    display: flex;
+    /* para que el boton de google y de twitter aparezcan a la izquierda: */
+    align-self: flex-start;
+    gap: 20px; /* espacio entre elementos */
+}
+
+.google-btn { /* BOTÓN DE GOOGLE */
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    /* altura del botón vista desde las herramientas para desarrolladores de google: */
+    height: 40px;
+    display: flex; /* para poder alinear la picture y el span de dentro del boton */
+    align-items: center; /* centrados en el eje Y */
+    padding: 2px; /* espacio que dejarán la imagen y el texto con el borde del botón */
+    cursor: pointer; /* cambio de cursor cuando pasamos por encima */
+}
+.google-btn:hover {
+    opacity: 0.75;
+}
+.google-btn picture { /* Cuadrado blanco donde irá la imagen de Google */
+    /* hacemos un cuadrado blanco: */
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    /* para centrar el logo al cuadrado blanco: */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn picture img { /* Imagen de Google */
+    /* para que la imagen ocupe el 75% del tamaño disponible: */
+    width: 75%;
+}
+.google-btn span { /* Texto "Registrarse con Google" */
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitter-b { /* BOTÓN DE TWITTER */
+    fill: #bbb; /* color del logo */
+    background-color: #eee; /* color de fondo */
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer; /* cambiar el tipo del cursor */
+}
+.twitter-b:hover { /* cuando pasamos por encima: */
+    background-color: #ddd; /* cambio color fondo */
+    fill: #000; /* cambio color logo */
+}
+
+.separator { /* LÍNEAS DE SEPARACIÓN Y "Or" */
+    display: flex; /* para que se pongan en la misma línea */
+    width: 100%; /* para que ocupen todo el espacio */
+    gap: 15px; /* espacio entre las hr y el "Or" del medio */
+}
+.separator hr { /* Líneas horizontales */
+    flex-grow: 1; /* índide, si vale 0, desaparecen las líneas */
+    /* para dar mejor estilo a las líneas: */
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separator span { /* Texto "Or" entre las líneas */
+    color: #8b8b8b;
+}
+
+form { /* AJUSTES GENERALES DE LA PARTE DEL FORMULARIO */
+    display: flex;
+    flex-direction: column; /* eje principal: Y */
+    align-items: stretch; /* para que ocupen todo el espacio */
+    gap: 30px /* espacio entre elementos */
+}
+.section-inputs { /* Input de Name y Username */
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+label { /* Genérico para los labels */
+    /* para que los labels se coloquen sobre el input al que acompañan: */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span { /* Genérico para los span de los labels */
+    font-weight: 700;
+}
+
+.section-inputs label input { /* Inputs de Name y Username */
+    width: 80%; /* para que no choquen entré sí las barras de texto */
+    background-color: #fef3f4;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input { /* Genérico para los inputs de los labels */
+    /* afecta a email y password */
+    width: 90%; /* para que se espandan hasta donde acaba el de username */
+    background-color: #fef3f4;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14pt;
+    /* efecto para que tarde un poco en hacer el efecto del hover: */
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+label input:hover { /* para cuando pasa el ratón por encima */
+    background-color: white;
+    border: 1px solid #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+label input:focus { /* para cuando se está escribiendo en ellos */
+    background-color: white;
+    border: 1px solid #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+.checkbox-label { /* AJUSTES GENERALES PARA EL CHECKBOX */
+    /* para que se pongan el input y el span en la misma fila: */
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"] { /* Cuadradito del checkbox */
+    width: 20px;
+}
+.checkbox-label span { /* Texto que acompaña al checkbox */
+    font-weight: 400;
+}
+
+.submit-btn { /* AJUSTES PARA EL BOTÓN DE ENVIAR FORMULARIO */
+    background-color: #ea4c89;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center; /* centrar el texto del botón */
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; /* cambiar el tipo de cursor */
+}
+.submit-btn:hover { /* Cuando se pasa por encima */
+    opacity: 0.75; /* opacidad al 75% */
+}
