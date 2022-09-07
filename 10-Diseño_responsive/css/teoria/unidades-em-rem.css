@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+.escenario {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.escenario-1 {
+    font-size: 32px;
+}
+.escenario-2 {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+}
+.rem {
+    font-size: 2rem;
+}
+
+/* 
+em: hace referencia al tamaño de fuente de su contenedor (relativo al padre en
+el que está contenido)
+rem: hace referencia al tamaño de fuente de la raíz
+
+si tenemos una configuración con una fuente muy grande (en el root), si
+trabajamos con unafuente muy grande, y usamos rem, todo se redimensionará a
+tamaño grande.
+*/

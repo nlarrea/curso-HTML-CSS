@@ -1,0 +1,22 @@
+/* *DEFINICIÓN DE VARIABLES: */
+:root {
+    --color-principal: rgb(0, 187, 255);
+    --ancho-principal: 250px;
+}
+/* si modificamos el valor de cualquiera de las variables, cambiará el
+aspecto de todos los elementos en los que se hayan aplicado */
+
+/* *UTILIZACIÓN DE VARIABLES */
+.titulo {
+    color: var(--color-principal);
+}
+
+.footer {
+    color: var(--color-principal);
+}
+
+.contenedor {
+    background-color: antiquewhite;
+    padding: 1rem;
+    max-width: var(--ancho-principal);
+}

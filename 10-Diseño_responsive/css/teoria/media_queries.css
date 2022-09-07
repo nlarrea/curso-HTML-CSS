@@ -1,0 +1,71 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: #333;
+    font-size: 2rem;
+}
+
+/* quiero tener la posibilidad de que el código se comporte de manera diferente
+según el dispositivo. Para ello: */
+@media print and (max-width: 576px) {
+    /* los estilos que ponga aquí, serán afectados sólo para los dispositivos
+    que yo especifique. Podemos acceder a 3 dispositivos diferentes: screen
+    (a una pantalla), print (cuando accedemos a una impresora) y speech (no
+    se utiliza tanto) */
+    h1 {
+        color: blue; /* hace que cuando se vaya a imprimir el documento,
+        y el dispositivo el color de h1 cambie a azul */
+    }
+}
+
+/* CAMBIAR COLORES SEGÚN EL TAMAÑO DE LA PANTALLA: */
+@media (min-width: 320px) {
+    h1 {
+        color: orange;
+    }
+}
+
+@media (min-width: 640px) {
+    h1 {
+        color: yellow;
+    }
+}
+
+@media (min-width: 960px) {
+    h1 {
+        color: green;
+    }
+}
+
+/* CAMBIAR COLOR DEL TEXTO SEGÚN LA ORIENTACIÓN DE LA PANTALLA: */
+/* calcula la diferencia entre el ancho y el alto, cuando el ancho supere
+al alto, lo detectará como apaisado (landscape), y cuando el alto sea mayor
+que el ancho, detectará que el dispositivo estará en vertical: */
+@media (orientation: portrait) {
+    p {
+        color: red; /* posición vertical */
+    }
+}
+
+@media (orientation: landscape) {
+    p {
+        color: blue; /* posición horizontal */
+    }
+}
+
+/* ANIDANDO CONDICIONES: */
+/* AND: solo ejemplo de sintaxis, no funciona porque se solapan */
+@media (orientarion: landscape) and (min-height: 777px) {
+    p{
+        color: green;
+    }
+}
+/* OR: solo ejemplo de sintaxis, no funciona porque se solapan */
+@media (orientarion: portrait), (min-height: 320px) {
+    p {
+        color: yellow;
+    }
+}

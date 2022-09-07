@@ -1,0 +1,34 @@
+body {
+    padding: 0px;
+    margin: 20px;
+}
+
+.escenario {
+    box-sizing: border-box; /* para que los escenarios cojan el tamaño del body sin contar los márgenes */
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.escenario-1 {
+    width: 100%;
+}
+.escenario-2 {
+    width: 50%;
+}
+
+.px {
+    /* unidades fijas: siempre van a tener 200px */
+    background-color: lightgreen;
+    width: 200px;
+}
+.porcentaje {
+    /* unidad relativa: depende del elemento padre, varía en escenario-1
+        y escenario-2, porque éstos también tienen un tamaño diferente */
+    background-color: lightcoral;
+    width: 50%;
+}
+.view {
+    /* unidad relativa: depende del ancho de la pantalla */
+    background-color: lightseagreen;
+    width: 50vw;
+}

@@ -1,0 +1,28 @@
+/* display: felx -> distribuye todo de forma que ocupe lo menos posible */
+/* página para visualizar mejor el flex-box:
+    codepen.io/enxaneta/full/adLPwv */
+.contenedor {
+    padding: 0.5rem;
+    background-color: lightblue;
+    min-height: 5rem;
+    display: flex;
+    gap: 0.5rem;
+    /*1. 2 posicionamientos clave: en eje principal y en secundario: */
+    justify-content: space-around; /* eje principal */
+    align-items: center; /* eje secundario */
+    /*4. propiedad flex-wrap: */
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: lightcoral;
+    padding: 0.25rem;
+    /*3. si todos los elementos tuvieran una anchura estándar: */
+    width: 10rem;
+}
+
+/*2. se puede modificar la disposición de uno de los items haciendo lo
+siguiente: */
+.item2 {
+    align-self: stretch;
+}

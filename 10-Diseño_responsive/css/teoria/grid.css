@@ -1,0 +1,44 @@
+.contenedor {
+    gap: 0.5rem;
+    /* se puede hacer filas y columnas por separado: */
+    /* row-gap: 1rem;
+    column-gap: 0.1rem; */
+    display: grid;
+    /* fromas de dar tamaño a las columnas: */
+    grid-template-columns: auto auto auto; /* que tenga 3 columnas de tamaño auto */
+    grid-template-columns: repeat(4, auto); /* divide en 4 columnas iguales */
+    grid-template-columns: 20px 3rem 25vw; /* col1: 20px, col2: 3rem, col3: 25vw */
+    grid-template-columns: 1fr 1fr 3fr; /* igual que la forma 1 */
+    grid-template-rows: 200px 5rem 100px; /* primera fila más alta */
+    /* también se puede trabajar por áreas: */
+    grid-template-areas: 'head head head' 'main main aside' 'footer footer footer';
+    /* esta línea dice que hay 1 fila con 3 columnas 'head', otra fila con
+    2 columnas 'main' y otra 'aside', y una fila más con 3 'footer' */
+}
+
+/* PARA DAR ESTILOS A TODOS A LA VEZ */
+.item {
+    background-color: lightcoral;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: 1px solid darkred;
+}
+
+/* FORMAS DE POSICIONAR LOS ITEMS DENTRO DEL GRID: */
+.item1 {
+    grid-area: head;
+    /* el item 1 está ocupando todo el área del head */
+}
+.item9 {
+    grid-area: footer;
+    /* nos mueve el 9 a la tercera fila y ocupa todo el área de footer */
+}
+.item2 {
+    grid-area: 4/2; /* mueve el item a la fila 4, columna 2 */
+    /* *sintaxis: grid-area: fila / columna; */
+}
+
+.item3 {
+    grid-area: 2/1 / 2/3; /* mueve el item desde fila2,col1 hasta fila3,col3 */
+    /* *sintaxis: grid-area: f-inicio / c-inicio / f-final / c-final */
+}
