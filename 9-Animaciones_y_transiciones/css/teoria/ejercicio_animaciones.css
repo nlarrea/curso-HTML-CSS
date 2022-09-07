@@ -1,0 +1,44 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: bisque;
+    /* sin esto, la animación no se ejecuta, hay que "llamar" a la animación desde la clase correspondiente
+        para saber a quién va a afectar: */
+    animation: movimiento_cuadrado 4s ease-in-out infinite alternate;
+    /* animation: nombre-animacion tiempo-en-terminarla efecto cuantas-veces-repetirla dirección */
+    /* - nombre-animacion: el nombre que nosotros hayamos creado
+        - tiempo-en-terminarla: el tiempo que tarda desde que la animación empieza, hasta que acaba
+        - efecto: linear, ease, ease-in, ease-in-out, o el que definamos con las herramientas de desarrollador
+        - cuantas-veces-repetirla: se puede poner un número o "infinite" para que lo repita siempre
+        - dirección: forward (del 0% al 100%), alternate (del 0 al 100 y del 100 al 0), ... */
+}
+
+.padre:hover .hijo {
+    /* le decimos que queremos que la animación pare cuando hacemos hover: */
+    animation-play-state: paused;
+}
+
+/* CREAMOS UNA ANIMACIÓN: que haga que el cuadrado hijo se mueva de una esquina a otra del cuadrado padre: */
+@keyframes movimiento_cuadrado {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+    100% {
+        transform: translateX(0%) translateY(0%);
+    }
+}

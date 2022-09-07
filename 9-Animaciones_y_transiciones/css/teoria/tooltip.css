@@ -1,0 +1,68 @@
+body { /* PARA CENTRAR EL BOTÓN EN EL MEDIO DE LA VENTANA */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* para centrarlo en X */
+    align-items: center; /* para centrarlo en Y */
+    min-height: 100vh;
+}
+
+/* DISEÑO DEL BOTÓN: */
+.btn-tooltip {
+    font-family: Hack, monospace;
+    color: white;
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid darkgreen; /* le da efecto de 3D */
+    background-color: green; /* poner mismo color que el borde, pero más claro */
+    cursor: pointer; /* hacer esto siempre con los botones */
+    transition: all 150ms; /* para que tarde 150ms en cambiar el color */
+}
+.btn-tooltip:hover { /* cambio de color cuando se pasa por encima */
+    background-color: rgb(0,100,0);
+}
+
+/* Una forma de hacer tooltips: (aunque no es la que vamos a usar ahora) */
+/* .btn-tooltip:hover::before{
+    content: "Esto es un tooltip";
+} */
+
+/* ASÍ ES COMO HAREMOS LOS TOOLTIPS AQUÍ: */
+.tooltip {
+    opacity: 0; /* para que no se vea el texto */
+    /* posicionamiento del texto <span>: */
+    position: absolute;
+    top: -70px;
+    left: -100%;
+    transform: translateX(25%);
+    /* color del texto y del fondo: */
+    color: lightgray;
+    background-color: #333;
+    /* estilos para el texto: */
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* transiciones: para que la opacidad tarde en variar */
+    transition: opacity 150ms;
+}
+.btn-tooltip:hover .tooltip {
+    /* al pasar el ratón sobre el botón, el texto del tooltip se ve */
+    opacity: 1;
+}
+.tooltip::before { /* para hacer el triangulito */
+    content: ''; /* contenido vacío */
+    border: 10px solid transparent; /* 10px de bordes transparentes */
+    border-top-color: #333; /* solo se verá el borde de abajo */
+    /* posicionamiento del triangulito: */
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* CÓMO HACER LOS TRIÁNGULOS PEQUEÑOS EN CSS: */
+/* .triangulo {
+    border: 10px solid transparent;
+    border-top-color: #333;
+} */

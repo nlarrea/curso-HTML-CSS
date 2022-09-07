@@ -1,0 +1,53 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: bisque;
+    /* TRANSICIONES: */
+    /* Lo comento para pasar con las animaciones: */
+    /* transition: all 1s ease 150ms; */
+    /* transition: transform 1s linear 150ms; */
+    /* transition: transform 1s cubic-bezier(0.63, 0.42, 1, 1.7) 150ms; */
+}
+
+.padre:hover .hijo{
+    /* TRANSICIONES: */
+    /* transform: translateX(100%);
+    background-color: lightgreen; */
+    /* ANIMACIONES: */
+    animation: translacion 1s ease-in-out forwards;
+}
+
+/* ANIMACIONES: ejemplo */
+@keyframes translacion {
+    0% {
+        background-color: bisque;
+        transform: translateX(0%);
+    }
+    50% {
+        background-color: bisque;
+        transform: translateX(10%) translateY(50%);
+    }
+    100% {
+        background-color: lightcoral;
+        transform: translateX(100%);
+    }
+}
+
+/* Para animar el hijo con respecto del padre, se pueden utilizar:
+    - Animaciones
+    - Transiciones */
+/* En ".padre:hover .hijo" metemos qué queremos que haga el hijo cuando
+    pasemos el cursor sibre el padre. Entonces, dentro de ".hijo" usamos
+    "transition" para indicar qué propiedades queremos que cambien en qué
+    tiempo. Las demás, cambiarán automáticamente. Es decir, si le ponemos:
+    "transition: all 1s" tardará 1 segundo en mover el cuadrado en el eje
+    X hasta el otro lado mientras cambia de color. Si le ponemos "transition:
+    transform 150ms" tardará 150 ms en moverse pero el cambio de color lo
+    hará de forma instantánea.*/
+/* transition: elementos-que-queremos tiempo-en-acabar-la-animación efecto delay; */
