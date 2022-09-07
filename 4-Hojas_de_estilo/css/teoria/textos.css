@@ -1,0 +1,19 @@
+/* FORMA 2 DE IMPORTAR FUENTES DE GOOGLE FONTS: */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    /* fuentes predeterminadas de CSS: */
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    /* fuente importada: */
+    font-family: 'Playfair Display', serif;
+    font-size: 40px; /* para cambiar el tamaño */
+    /* para hacerla negrita o no, para usar esto habría que usar un tipo de
+        fuente válido, no sirve con todas las fuentes */
+    font-weight: 700;
+    font-style: italic; /* porque hemos descargado el tipo italic de la fuente también*/
+}
+
+/* FORMA 1 DE IMPORTAR FUENTES DE GOOGLE FONTS: */
+/* se pueden importar fuentes de textos desde google (fonts.google.com)
+    hay un link que nos permite copiar y pegar diferentes líneas de código
+    en el <head> y en el archivo CSS dentro de font-famiy */
