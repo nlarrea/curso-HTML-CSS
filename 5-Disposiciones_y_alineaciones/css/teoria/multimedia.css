@@ -1,0 +1,32 @@
+* { /* para eliminar el padding y marging automáticos del "user agent" */
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal {
+    width: 100vw; /* vw: viewport width --> para el 100% de la pantalla */
+    opacity: 0.6;
+    /* opacidad: valores del 0 al 1:
+        si opacity: 1; --> se ve la imagen tal y como es
+        si opacity: 0; --> se ve como si la imagen fuera totalmente transparente */
+}
+/* PROPIEDAD HOVER: hace que al pasar con el ratón por encima de la imagen, la opacidad
+pasará de 0.5 (la indicada en .imagen-principal) a 1 (la indicada en .imagen-principal:hover) */
+.imagen-principal:hover {
+    opacity: 1;
+}
+
+/* estilo para toda la galería: */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* para poner un espacio de 10px de separación entre las imágenes */
+}
+    
+.imagen-galeria { /* para ajustar el ancho de las imágenes */
+    width: 160px;
+}
+.imagen-galeria:hover { /* cambiar la opacidad y la forma del cursor al pasar sobre la imagen */
+    opacity: 0.3;
+    cursor: pointer;
+}

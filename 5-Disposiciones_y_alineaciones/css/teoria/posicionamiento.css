@@ -1,0 +1,66 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* los estáticos por defecto son así:
+.static {
+    position: static;
+    /* no se ven afectados por los elementos de posicionamiento, es
+    decir, que no le podemos decir algo como "left: 80px;"
+} */
+
+/* Posicionamiento relativo: se posiciona en relación al posicionamiento original*/
+.relative {
+    /* nos permite mover un elemento en relación a la posición que tendría
+    si fuera estático: */
+    position: relative;
+    left: 80px;
+    margin-left: 10px; /* a pesar de tener por defecto un margin de 5px por
+        ser un div, se le puede poner un margen concreto en algúno de los lados */
+}
+
+/* Posicionamiento fijo: se posiciona en relación a la pantalla */
+.fixed {
+    /* independientemente del scroll y de dónde estemos, siempre tendrá una posición
+    fija */
+    position: fixed;
+    background-color: cadetblue;
+    /* si queremos que se mantenga siembre abajo a la izquierda: */
+    bottom: 0px;
+    left: 0px;
+    /* para que se vea siempre en la "capa de arriba": */
+    z-index: 10;
+}
+
+/* Posicionamiento absoluto: siempre va a permanecer en un punto fijo,
+por lo general se le asigna un posicionamiento absoluto a un elemento
+dentro de otro que tenga posicionamiento relativo */
+.absolute {
+    position: absolute;
+    /* siempre tiene que tener un elemento top/bottom/left/rigth */
+    bottom: 60px;
+    right: 0px;
+}
+
+/* es relativo y contenedor, así que tiene las características de la
+clase relative también: */
+.relative.contenedor {
+    margin-top: 30px;
+    width: 300px; /* ancho del borde de elementos .relative.contenedor */
+    height: 400px; /* alto del borde */
+    background-color: darkgrey;
+}
+
+/* Posicionamiento sticky: tiene una posición en concreto, pero si le ponemos
+"top: 0px;" a medida que hagamos scroll, siempre se va a mantener arriba cuando
+nos vayamos moviendo hacia abajo, modificando su posicionamiento: */
+.sticky {
+    /* se utiliza mucho para hacer menús que se mantienen en un punto y
+    a medida que bajas en la página, se muestran siempre arriba */
+    background-color: darksalmon;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+}

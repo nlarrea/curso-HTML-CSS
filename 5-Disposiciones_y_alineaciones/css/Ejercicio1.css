@@ -4,7 +4,7 @@
 }
 
 .galeria {
-    /* todos los elementos de la galería tienen display tipo flex y son wrap: */
+    /* los elementos de la galería tienen display tipo flex y son wrap: */
     display: flex;
     flex-wrap: wrap;
 }

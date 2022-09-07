@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.video {
+    /* le decimos que queremos que ocupe el 100% del ancho y del alto, y que
+        además rellene todo el tamaño de la pantalla (para que sea el background: */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* le ponemos position fixed para que se mantenga siempre en esa posición y
+        si tenía barras de scroll, desaparecen: */
+    position: fixed;
+}
+
+.header {
+    height: 100vh;
+    position: relative; /* ahora aparecerán las letras */
+    text-align: center; /* para que se ponga en el centro de lo que ocupa */
+    display: flex;
+    flex-direction: column; /* para que el botón se ponga debajo de las letras */
+    gap: 10px;
+    justify-content: center; /* para que se ponga en el centro de la pantalla (eje principal: x) */
+    align-items: center; /* para que se ponga en el centro de la pantalla (eje secundario: y) */
+}

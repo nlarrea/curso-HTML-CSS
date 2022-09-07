@@ -1,0 +1,42 @@
+/* Página donde poder consultar de forma visual todas las opciones del flex:
+    codepen.io/enxaneta/full/adLPwv */
+.flex {
+    display: flex;
+    background-color: gray;
+    height: 300px;
+    justify-content: space-around;
+        /* center: para posicionar todo en el centro */ 
+        /* flex-start: por defecto, para poner todo a la izquierda */
+    /* si le damos otro tamaño a la página (haciendo la ventana más pequeña)
+    los elementos se van redimensionando para mantener el equilibro del tamaño */
+    flex-wrap: wrap;
+        /* por defecto: nowrap (redimensiona los elementos para que
+        quepan en la misma línea */
+        /* wrap: hace que en vez de redimensionar los elementos, cuando ya no entren
+        todos en esa misma línea, el último lo manda a la siguiente línea */
+    align-items: center;
+        /* stretch: ocupa todo el alto del contenedor */
+        /* center: posiciona los elementos en medio y los redimensiona según el
+        lo que ocupe el texto de su interior */
+}
+
+.contenido-1 {
+    background-color: lightseagreen;
+    /* height: 200px; */
+    width: 200px;
+    border: 1px solid darkcyan;
+}
+
+.contenido-2 {
+    background-color: lightgreen;
+    /* height: 200px; */
+    width: 200px;
+    border: 1px solid darkcyan;
+}
+
+.contenido-3 {
+    background-color: lightyellow;
+    /* height: 200px; */
+    width: 200px;
+    border: 1px solid darkcyan;
+}

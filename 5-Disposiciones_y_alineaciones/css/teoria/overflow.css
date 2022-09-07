@@ -1,0 +1,52 @@
+.contenedor-visible {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px 80px;
+    overflow: visible;
+    /* visible (por defecto): hace que no importe el tamaño del contenedor,
+        que se pueda ver el contenido del texto aunque se salga del formato */
+}
+
+.contenedor-hidden {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px;
+    overflow: hidden;
+    /* hiden: todo lo que se salga fuera de los píxeles del entorno,
+        quedaría oculto y no se vería */
+}
+
+.contenedor-scroll {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px;
+    overflow: scroll;
+    /* scroll: se crea una barra de scroll donde permite hacer scroll
+        y ver todo el contenido del texto */
+}
+
+.contenedor-scroll-y {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* scroll: se crea una barra de scroll donde permite hacer scroll
+        y ver todo el contenido del texto */
+}
+
+.contenedor-auto {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px;
+    overflow: auto;
+    /* auto: hace lo mismo que el scroll pero de forma optimizada, es decir, en
+        el scroll, nosotros indicamos en qué ejes queremos ver las barras de los
+        scroll si no queremos que se muestren todas. En el auto, detecta si solo
+        te hacen falta las barras de scroll en uno de los ejes y solo te pone esa */
+}

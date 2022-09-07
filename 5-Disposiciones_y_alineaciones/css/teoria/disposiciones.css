@@ -1,0 +1,30 @@
+.div-1, .div-2 {
+    background-color: indianred;
+    /* por defecto, los div tienen un display de tipo block:
+        display: block; --> por eso cuando escribimos un div, hace
+        un salto de línea automáticamente*/
+}
+
+.span-1 {
+    background-color: aquamarine;
+    /* por defecto, los span tienen un display de tipo inline:
+        display: inline; --> por eso muestra todos los span en la
+        misma línea sin hacer saltos de línea */
+        float: right;
+}
+
+.span-2 {
+    background-color: aquamarine;
+    /* con float podemos "alinear" los elementos, más o menos: */
+    float: left;
+}
+
+.img {
+    width: 100px;
+    height: auto;
+    /* por defecto, las imágenes tienen un display de inline-block:
+        display: inline-block; --> permite trabajar con los tamaños de
+        anchura y de altura. A los span (que solo tienen un display de
+        inline), si le cambiamos el height, no lo va a modificar, a no
+        ser que yo le cambie el tipo de display a inline-block por ejemplo */
+}

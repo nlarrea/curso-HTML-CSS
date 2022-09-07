@@ -1,8 +1,0 @@
-# ignora todos los archivos .css menos "Ejercicio1.css":
-*.css
-!Ejercicio1.css
-# ignorar la carpeta multimedia:
-multimedia
-# ignorar todos los archivos .html menos "Ejercicio1.html":
-*.html
-!Ejercicio1.html
