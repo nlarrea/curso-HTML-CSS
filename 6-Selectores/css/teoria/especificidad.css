@@ -1,0 +1,28 @@
+#h1-id {
+    color: yellow;
+}
+
+.h1-clase {
+    color: orange;
+}
+
+h1 {
+    color: red !important;
+}
+
+p {
+    color: darkgray;
+}
+
+/* A igualdad de condiciones, si modificamos el color de h1 2 veces, se quedará
+con el color del de abajo. Sin embargo, a pesar de que el h1-id esté modificado
+antes que el h1-clase y antes que el h1 general, la especificidad del id tiene
+mayor peso que la de la clase, y la clase una mayor que la de la etiqueta, por
+lo que se mantendrá el color que tenga el h1-id */
+/* Si se escribiera el atributo "style" dentro de la propia etiqueta de <h1>,
+daría igual el tipo de formato aplicado en el archivo CSS, porque escribir el
+estilo dentro de la propia etiqueta aporta mayor especificidad */
+/* Hay una forma de dar más especificidad al "h1 {}" en CSS, y es mediante la
+etiqueta "!important", que hará que automáticamente coja mayor peso de especificidad
+que el resto. Se recomienda evitar utilizar la opción de !important, porque
+hará que el código sea menos mantenible, es preferible usar ids y clases */

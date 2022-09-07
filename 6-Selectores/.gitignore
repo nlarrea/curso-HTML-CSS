@@ -1,6 +1,0 @@
-# ignorar todos los elementos .css, excepto el Ejercicio1.css:
-*.css
-!Ejercicio1.css
-# ignorar todos los elementos .html, excepto el Ejercicio1.html:
-*.html
-!Ejercicio1.html

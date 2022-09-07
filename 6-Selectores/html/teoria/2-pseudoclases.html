@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudoclases</title>
+    <!-- en lugar de crear un archivo CSS, vamos a usar los estilos desde aquí: -->
+    <style>
+        * { /* para quitar el padding y margin que hay por defecto */
+            padding: 0;
+            margin: 0;
+        }
+        /* PSEUDOCLASE HOVER: */
+        .hover {
+            width: 300px;
+            height: 60px;
+            background-color: bisque;
+        }
+        /* las pseudoclases son aquellas que se representan con un solo grupo de 2 puntos,
+            la más utilizada es la pseudoclase :hover, he aquí un ejemplo: */
+        .hover:hover { /* se activa cuando el ratón pasa por encima */
+            background-color: burlywood;
+        }
+        /* PSEUDOCLASE FIRST-CHILD: */
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+        .listado p:first-child {
+            /* :first-child hace referencia al primer elemento del tipo (etiqueta) que le
+                indiquemos, pero hay que decirle a qué elementos afecta. En este caso, a
+                los elementos del tipo <p> */
+            color: white;
+            /* si quitáramos el ".listado", afectaría a todos los primeros <p> de cada grupo,
+                es decir, que el párrafo dentro de la clase hover tambien se vería afectado,
+                porque es el primer párrafo de su grupo "div" */
+        }
+        /* PSEUDOCLASES PARA LOS ENLACES: */
+        a:link { /* hace referencia a los link NO visitados todavía */
+            color: green;
+        }
+        a:visited{ /* hace referencia a los links SÍ visitados */
+            color: crimson;
+        }
+        a:hover{ /* cambia el color cuando se pasa el ratón por encima */
+            color: pink;
+        }
+        a:active{ /* cambia el color en el momento que se clicka el enlace */
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>
+            Ea ullamco dolore reprehenderit ut consequat commodo Lorem nulla quis
+            ea. Non quis labore mollit ex fugiat eiusmod.
+        </p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a Google (visitado)</a>
+        <a href="http://youtube.com" target="_blank">Enlace a YouTube (no visitado)</a>
+    </div>
+</body>
+</html>

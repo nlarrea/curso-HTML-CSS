@@ -1,0 +1,49 @@
+/* Se utilizan de forma similar a las pseudoclases.
+    Se accede a ellos usando dos grupos de 2 puntos: :: */
+
+.contenedor {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+span.frase { /* solo afecta a la cita de la frase */
+	font-style: italic;
+}
+span.frase::before { /* se "escribe" '<< ' donde está la <span> */
+	content: "<< ";
+	font-size: xx-small;
+}
+span.frase::after { /* se "escirbe" ' >>' donde está la </span> */
+	content: " >>";
+	font-size: xx-small;
+}
+
+.libro {
+	background-color: bisque;
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.libro p::first-letter {
+	font-size: xx-large;
+    /* ".libro p::first-letter" afecta a todas las primeras letras de los 
+        párrafos que están dentro de la clase libro */
+}
+.libro p::first-line {
+	color: white;
+	/* ".libro p::first-line" hará que la primera línea de los párrafos de la
+        clase libro tengan un color blanco, las demas líneas sin embargo, se 
+        quedarán con el color original */
+}
+.libro p::selection{
+    /* afecta a la selección, como cuando escoges texto para copiarlo, por ejemplo,
+        y le cambia el color de forndo y el color del texto cuando es seleccionado */
+    background-color: #5d4e60;
+    color: #d4b2d8;
+}
+
+.listado ul li::marker {
+    /* con esto nos referimos a los markers de los elementos <li> que estén dentro
+    de una <ul> que pertenezca a la clase listado */
+    color: red;
+}

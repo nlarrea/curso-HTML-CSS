@@ -1,0 +1,16 @@
+/* si solo queremos actuar sobre los <p> que estén dentro del contenedor: */
+.contenedor p {
+    color: blue;
+}
+/* con ".contenedor p" nos referimos a todos los <p> que estén dentro de la
+    clase contenedor, pero los <p> de fuera de dicha clase "contenedor" no se
+    van a ver afectados */
+
+/* también se pueden anidar clases con id, o clases con clases: */
+.contenedor #boton-contenedor { /* esta es una clase anidada con id */
+    background-color: aquamarine;
+}
+
+.contenedor .important { /* esta es una clase anidada con otra clase */
+    text-decoration: underline;
+}
