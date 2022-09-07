@@ -1,0 +1,22 @@
+.row div {
+    margin: 0.25rem;
+}
+
+.col {
+    background-color: lightblue;
+}
+.col-sm {
+    background-color: lightcoral;
+}
+.col-md {
+    background-color: lightgoldenrodyellow;
+}
+.col-lg {
+    background-color: lightgreen;
+}
+.col-xl {
+    background-color: lightseagreen;
+}
+.col-xxl {
+    background-color: lightpink;
+}

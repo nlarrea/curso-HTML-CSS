@@ -1,6 +1,0 @@
-# ignorar todos los .css menos el Ejercicio1:
-*.css
-!Ejercicio1.css
-# ignorar todos los .html menos el Ejercicio1:
-*.html
-!Ejercicio1.html
