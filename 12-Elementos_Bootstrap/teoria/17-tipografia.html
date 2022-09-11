@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tipografía</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container m-4">
+        <!-- así se hace de normal: -->
+        <h1>Esto es un h1</h1>
+        <h2>Esto es un h1</h2>
+        <h3>Esto es un h3</h3>
+        <h4>Esto es un h4</h4>
+        <h5>Esto es un h5</h5>
+        <h6>Esto es un h6</h6>
+        <hr>
+        <!-- así se puede hacer con Bootstrap: -->
+        <p class="h1">Esto es un p con estilo de h1</p>
+        <p class="h2">Esto es un p con estilo de h2</p>
+        <p class="h3">Esto es un p con estilo de h3</p>
+        <p class="h4">Esto es un p con estilo de h4</p>
+        <p class="h5">Esto es un p con estilo de h5</p>
+        <p class="h6">Esto es un p con estilo de h6</p>
+        <hr>
+        <!-- si queremos que un texto tenga menos protagonismo: -->
+        <p class="h1">Esto es un p con <small class="text-muted">estilo de h1</small></p>
+        <hr>
+        <!-- fuentes display: fuentes más grandes y finas -->
+        <h1 class="display-1">Display 1</h1>
+        <h2 class="display-2">Display 2</h2>
+        <h3 class="display-3">Display 3</h3>
+        <h4 class="display-4">Display 4</h4>
+        <h5 class="display-5">Display 5</h5>
+        <h6 class="display-6">Display 6</h6>
+        <hr>
+        <!-- párrafos con énfasis: -->
+        <!-- el primer p tendrá más protagonismo que el otro -->
+        <p class="lead">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+            fugiat alias sed temporibus ratione mollitia similique dolores,
+            obcaecati nesciunt facilis quis repudiandae rem dignissimos
+            veniam ipsam, dolorem excepturi incidunt numquam!
+        </p>
+        <!-- abreviaturas: puedo coger una palabra y abreviarla con <abbr>: -->
+        <p>
+            Lorem ipsum dolor, <abbr title="Podríamos escribir aquí su significado">amet</abbr>
+            consectetur adipisicing elit. Suscipit ut dicta minus? Aliquam, hic quos. Quis quae
+            praesentium, nobis facilis, earum et veniam mollitia asperiores aliquam sed ipsa aspernatur voluptas!
+        </p>
+        <hr>
+        <!-- alineamiento de texto: -->
+        <p class="text-end">Esto es un texto con text-end</p>
+        <p class="text-start">Esto es un texto con text-start</p>
+        <p class="text-center">Esto es un texto con text-center</p>
+        <hr>
+        <!-- listas en una sola línea: -->
+        <p>
+            Este es un párrafo con lista:
+            <ul class="list-inline">
+                <li class="list-inline-item">Elemento-1</li>
+                <li class="list-inline-item">Elemento-2</li>
+                <li class="list-inline-item">Elemento-3</li>
+            </ul>
+        </p>
+        <hr>
+        <!-- responsive text: -->
+        <!-- el texto en Bootstrap es responsive, pero vamos a hacer que cambie el alineamiento dependiendo del ancho de pantalla: -->
+        <p class="text-end text-sm-center text-md-start">Esto es un texto responsive</p>
+        <hr>
+        <!-- text breack: -->
+        <p class="text-break">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+        <hr>
+        <!-- texto con mayus/minus: -->
+        <p class="text-lowercase">Texto en MINÚSCULAS</p>
+        <p class="text-uppercase">Texto en MAYÚSCULAS</p>
+        <p class="text-capitalize">primera letra mayúsculas</p>
+        <hr>
+        <!-- line height: -->
+        <p class="lh-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corrupti impedit architecto minus laudantium, aperiam dicta? Reprehenderit eos perferendis iure nam fugiat, est nemo alias cum in molestias enim iste.
+        </p>
+        <p class="lh-lg">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime iure sed provident aperiam, quidem nam molestias itaque qui dolor nemo reprehenderit harum facilis adipisci temporibus, odit fuga fugiat. Atque, officiis?
+        </p>
+        <hr>
+        <!-- enlaces: -->
+        <a href="#">Este es un enlace normal</a> <br>
+        <a href="#" class="text-reset">Este es un enlace con el mismo color de fuente que el texto</a> <br>
+        <a href="#" class="text-reset text-decoration-none">Este es un enlace con el mismo color de fuente que el texto y sin subrayado (mala práctica)</a>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>

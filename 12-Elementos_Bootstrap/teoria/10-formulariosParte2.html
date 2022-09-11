@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formularios Parte 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container pt-4">
+        <form action="">
+            <!-- SELECTS: -->
+            <select class="form-select mb-3">
+                <option selected>Elige un número</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
+            <!-- para poder escoger más de una opción a la vez: -->
+            <select multiple class="form-select mb-3">
+                <option selected>Elige un número</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
+            <!-- para que solo se vean 2 opciones: -->
+            <select multiple class="form-select mb-3" size="2">
+                <option selected>Elige un número</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+            </select>
+            <!-- CHECKBOX -->
+            <div> <!-- checkbox que está marcado automáticamente -->
+                <input type="checkbox" class="form-check-input" id="check" checked>
+                <label for="check" class="form-check-label">Estoy de acuerdo con las condiciones</label>
+            </div>
+            <!-- RADIUS: -->
+            <!-- cada opción del radius tiene que ir en un div -->
+            <!-- si tenemos mas de un rarius juntos, TIENEN que tener el mismo name: -->
+            <div class="my-4">
+                <div class="form-check form-check-inline"> <!-- opción 1 -->
+                    <!-- el form-check-inline hace que se pongan las opciones en horizontal en vez de vertical -->
+                    <input type="radio" 
+                        name="flexRadioDefault" 
+                        class="form-check-input" 
+                        value="Menor de edad" 
+                        id="radio-menor"/>
+                    <label for="radio-menor" class="form-check-label">Soy menor de edad</label>
+                </div>               
+                <div class="form-check form-check-inline"> <!-- opción 2 -->
+                    <!-- el form-check-inline hace que se pongan las opciones en horizontal en vez de vertical -->
+                    <input type="radio"
+                        name="flexRadioDefault"
+                        class="form-check-input"
+                        value="Mayor de edad"
+                        id="radio-mayor"/>
+                    <label for="radio-mayor" class="form-check-label">Soy mayor de edad</label>
+                </div>
+            </div>
+            <!-- SWITCHES: -->
+            <div class="form-check form-switch my-4">
+                <input type="checkbox"
+                    class="form-check-input"
+                    id="switch"/>
+                <label for="switch" class="form-check-label">Estoy de acuerdo con las condiciones</label>
+            </div>
+            <!-- BOTONES QUE CAMBIAN DE ESTADO: -->
+            <!-- cuando un "botón" se activa, el otro se desactiva -->
+            <div class="mt-4">
+                <!-- botón 1: -->
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label>
+                <!-- botón 2: -->
+                <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                <label class="btn btn-outline-danger" for="danger-outlined">Danger radio</label>
+            </div>
+            <!-- SUBMIT BUTTON: -->
+            <div class="row mt-4">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
