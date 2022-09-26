@@ -1,0 +1,24 @@
+// Componentes:
+@use "../sass/componentes" as comp; // se le cambia el nombre y se usa "comp" en vez de "componentes"
+//namespace
+// $color -> comp.$color
+
+// mixins:
+@use "../sass/mixins";
+// $color -> misins.$color
+
+// Estilos:
+@use "../sass/estilos";
+
+// Páginas
+// página principal
+// página de contacto
+// página de aviso legal
+
+/* después de las últimas versiones, en vez de import, se utilizan otras
+funciones propias de sass: @use y @forward */
+/* hasta ahora hemos estado compilando constantemente CSS con SCSS, pero no
+hemos usado el dart sass */
+
+/* otros: */
+@use "../sass/builtin";

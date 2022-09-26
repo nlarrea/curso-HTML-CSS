@@ -1,0 +1,14 @@
+/* 1º CLASE: */
+$text-color: #2b2b2b;
+
+/* para reutilizar código: mixin */
+@mixin formato-texto($bg-color: #f1f1f1) {
+    width: 50rem;
+    color: $text-color;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}
+/* como mixin es una especie de función, puedo pasarle un parámetro como
+si fuera una variable. Se le puede asignar un valor por defecto a dicho
+parámetro tambien indicando su valor en los paréntesis detrás del nombre
+de la función */

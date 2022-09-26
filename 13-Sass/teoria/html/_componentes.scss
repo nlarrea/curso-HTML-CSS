@@ -1,0 +1,13 @@
+.btn {
+    border: none;
+    padding: 0.25rem 0.5rem;
+    color: #2b2b2b;
+    &:hover {
+        background-color: cyan;
+        color: red;
+        cursor: pointer;
+    }
+}
+/* todos los archivos que tengan una "_" delante, no se van a compilar, para
+que funcione, se tienen que importar los datos en el SCSS principal.
+En los proyectos reales, se le suele llamar "index.css" */

@@ -1,0 +1,62 @@
+// importaciones de librerías para usar las funciones:
+@use "sass:String";
+@use "sass:math";
+@use "sass:list";
+
+// FUNCIONES CON CADENAS DE TEXTO:
+/* @debug pasa por la terminal lo que le digamos */
+@debug "hola";
+@debug string.index("Helvetica Neue", "Neue");
+
+$string: "Helvetica";
+$newString: string.insert($string, " Bold", 10);
+@debug $newString;
+/* @debug ayuda a verlo en pantalla */
+
+@debug $newString;
+@debug string.length($newString);
+
+@debug string.to-upper-case("Roboto Mono");
+@debug string.to-lower-case("Roboto Mono");
+
+@debug string.unique-id();
+
+// FUNCIONES CON NÚMEROS:
+
+@debug math.$e; // numero e
+@debug math.$pi;
+
+@debug math.floor(4.6); // devuelve el entero más cercano por abajo
+@debug math.round(4.4); // devuelve el entero más cercano
+@debug math.ceil(4.6); // devuelve el entero más cercano por arriba
+
+@debug math.clamp(0, 6.36, 10); // mira si el 6.36 está en un rango entre 0 y 10
+// si no está, devuelve 0 si el del medio es menor, o 10 si el número es mayor que éste
+
+@debug math.max(3,4,6,10,399); // devuelve el número más grande
+@debug math.min(3,4,6,10,399); // devuelve el número más pequeño
+
+@debug math.pow(2,12); // 2^12
+@debug math.pow(2, math.abs(-3)); // 8
+
+@debug math.abs(-8); // 8
+
+@debug math.cos(math.$pi); // 1
+@debug math.sin(math.$pi); // 0
+
+// FUNCIONES CON LISTAS:
+$lista1: 10px, 10px, 0px, 15px;
+
+@debug $lista1;
+@debug list.append($lista1, 25px, space); // crea copia con un 25px al final y separando elementos con un espacio
+
+$border-custom: solid 1px #ccc; // esto cuenta como lista
+@debug list.index($border-custom, 1px); // 2, porque las listas aquí empiezan con index=1
+@debug list.index($border-custom, 2px); // null, porque no está
+
+//$borer-2: [solid, 1px, #ccc]; // da error, pero no lo es
+//@debug list.is-bracketed($border-2); // true
+
+@debug list.join($lista1, $border-custom, auto); // junta las dos listas
+
+@debug list.length(list.join($lista1, $border-custom, auto)); // 7
