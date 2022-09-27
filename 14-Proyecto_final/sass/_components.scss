@@ -1,0 +1,122 @@
+// características de todos los botones principales:
+@mixin btn-base {
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.25rem;
+}
+// características de todos los botones secundarios:
+@mixin btn-sm-modify {
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+}
+
+// VARIABLES:
+$color-main: #0075ff;
+$color-footer: #f4f8fe;
+
+// ESTILOS:
+.btn-main { // botones principales
+    @include btn-base();
+    background-color: $color-main;
+    color: white;
+    border: none;
+    border: solid 1px $color-main;
+
+    &:hover {
+        background-color: white;
+        color: $color-main;
+    }
+
+    &-s {
+        @extend .btn-main; // para que coja las características de .btn-main también
+        @include btn-sm-modify();
+    }
+}
+
+.btn-sec { // botones secundarios
+    @include btn-base();
+    color: black;
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+        color: #888;
+    }
+
+    &-s {
+        @extend .btn-sec; // para cambiar el tamaño del pequeño
+        @include btn-sm-modify();
+    }
+}
+
+.main-menu { // menú principal
+    margin-bottom: 0;
+    li {
+        font-size: 0.75rem;
+        list-style: none;
+        display: inline;
+        margin-right: 2rem;
+        a {
+            color: black;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.icon-sm { // iconos de la descripción
+    i {
+        font-size: 1.25rem;
+        padding: 0.4rem 0.65rem;
+        color: $color-main;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #00000040;
+    }
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    i {
+        color: $color-main;
+        font-size: 7.5rem;
+        text-align: center;
+    }
+    .description {
+        .title {
+            font-size: 2rem;
+            text-align: center;
+        }
+        .text {
+            color: #888;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+    .cta {
+        color: $color-main;
+        font-weight: 600;
+        margin-top: 3rem;
+        text-align: center;
+    }
+}
+
+.icon-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    i {
+        color: $color-main;
+        font-size: 10rem;
+        padding: 0;
+    }
+    .title {
+        margin-top: -1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
