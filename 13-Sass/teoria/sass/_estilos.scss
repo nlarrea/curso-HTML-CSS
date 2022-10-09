@@ -16,11 +16,11 @@ body {
 
 h1 {
     margin: 0;
-    @include formato-texto(#f1f1f1); /* para utilizar lo del mixin */
+    @include mixins.formato-texto(#f1f1f1); /* para utilizar lo del mixin */
 }
 
 p {
-    @include formato-texto(#666666);
+    @include mixins.formato-texto(#666666);
 }
 
 /* FORMA 1 de acceder a los li dentro del ul dentro del div con clase listado:

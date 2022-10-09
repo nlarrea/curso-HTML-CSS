@@ -32,7 +32,7 @@ body {
 
 .container {
   width: 100%;
-  background-color: azure;
+  background-color: blanchedalmond;
   min-height: 100vh;
   padding: 0.5rem;
 }
@@ -79,7 +79,10 @@ div.listado ul li {
 .listado ul li:hover {
 
 }*/
+/* @debug pasa por la terminal lo que le digamos */
+/* @debug ayuda a verlo en pantalla */
 /* después de las últimas versiones, en vez de import, se utilizan otras
 funciones propias de sass: @use y @forward */
 /* hasta ahora hemos estado compilando constantemente CSS con SCSS, pero no
-hemos usado el dart sass *//*# sourceMappingURL=styles.css.map */
+hemos usado el dart sass */
+/* otros: *//*# sourceMappingURL=styles.css.map */
