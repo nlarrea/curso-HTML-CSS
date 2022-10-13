@@ -1,0 +1,51 @@
+/* Prueba de colores y fuentes */
+h1 {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+p {
+    color: blue;
+    font-size: 16pt;
+    font-style: italic; /* los párrafos se verán en cursiva, todos */
+    /*
+    Si escribiera ahora esto:
+        color: green;
+    el color se vería verde, porque se sobreescribiría sobre el azul
+    */
+}
+
+/* SELECTORES: id (#)*/
+/* para referirme a varias clases, id o etiquetas, separar por comas: */
+#primera-noticia, #segunda-noticia {
+    color: cornflowerblue;
+    font-size: 14pt;
+}
+/*
+Este primer ejemplo afecta a todas las etiquetas que tengan "primera-noticia" como id.
+Si quisiera que afectara solo a los párrafos (<p>), debería ponerlo de la siguiente manera:
+    p #primera-noticia {
+De esta forma, el estilo solo afectaría a los párrafos y no a otras etiquetas como <h3>, <span>, ...
+Sin embargo, para referirme a todas las etiquetas independientemente de su tipo, utilizaríamos el '*'
+*/
+
+/* SELECTORES: class (.)*/
+.encabezado {
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+/* para referirme a varias clases, id o etiquetas, separar por comas: */
+.autor, .fecha, .ubicacion, h1 {
+    text-decoration: underline;
+}
+
+.autor, .fecha, .ubicacion {
+    color: grey;
+    font-size: 10pt;
+}
+
+/* PARA TODAS LAS ETIQUETAS (da igual de qué tipo) QUE SEAN DE LA CLASE WARNING: */
+*.warning {
+    color: red;
+}

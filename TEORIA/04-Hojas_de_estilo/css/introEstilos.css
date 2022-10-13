@@ -1,0 +1,63 @@
+h2 {
+    text-decoration: underline;
+}
+
+/* ESTILOS PARA COLORES: */
+/* accedemos a la clase colores del HTML: */
+.colores {
+    color: red; /* color predeterminado de CSS */
+}
+/* se pueden crear paletas de colores desde la página coolors.co (muy chula la página)*/
+/* para utilizar colores en formato hexadecimal: */
+.color-hexadecimal {
+    color: #88498f;
+}
+/* para añadir colores en formato RGB: */
+.color-rgb {
+    color: rgb(0, 119, 182);
+}
+/* para utilizar colores en formato RGBA:
+    este formato es igual que el rgb, pero además se le añade un número entre 0 y 1
+    que es la opacidad del color (la transparencia): */
+.color-rgba {
+    color: rgba(40, 89, 67, 0.85);
+}
+
+/* FONDOS */
+/* imagen cogida de internet (copiando la dirección de la imagen): */
+.fondo {
+    /* si quisiéramos que las letras tuvieran un fondo de un color concreto: */
+    /* background-color: cornflowerblue; */
+    /* si queremos que las letras tengan una imagen de fondo: */
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&dl=pexels-simon-berger-1323550.jpg&fm=jpg");
+    background-position: center top; /* para centrar la parte de la imagen que se va a ver */
+}
+/* imagen guardada en el ordenador: */
+.fondo-interno {
+    background-image: url("../img/fondo.jpg");
+    background-position: center -180px;
+}
+
+/* TAMAÑOS */
+.ancho {
+    background-color: aquamarine; /* para que veamos bien el tamaño real */
+    width: 100px;
+}
+.alto {
+    background-color: cadetblue; /* para que veamos bien el tamaño real */
+    height: 200px;
+}
+.tarjeta {
+    /* definimos los bordes: */
+    border-style: solid; /* borde sólido */
+    border-color:rgb(40, 89, 67);
+    border-width: 1px;
+    /* border-top: none; /* con esto se quitaría el borde de arriba */
+    padding: 10px; /* espacio interno, el que hay entre el texto de dentro y el borde */
+    margin: 10px 20px; /* margen externo, el que tiene el borde con los elementos de fuera de la tarjeta*/
+    /* pueden tener hasta 4 atributos:
+        padding: arriba derecha abajo izquierda;
+        margin: arriba derecha abajo izquierda
+    si solo hay 2 elementos:
+        padding: arriba-abajo derecha-izquierda */
+}

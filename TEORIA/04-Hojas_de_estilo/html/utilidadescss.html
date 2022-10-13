@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades CSS</title>
+    <link rel="stylesheet" href="../css/estilos.css"> <!-- FORMA 1 de agregar estilos -->
+    <!-- FORMA 2 de agregar estilos: -->
+    <style>
+        html {
+            padding: 15px; /* para poner un pequeño margen */
+        }
+        p {
+            color: red;
+        }
+    </style>
+    <!-- FORMA 3 de agregar estilos: purecss.io -->
+    <!-- Se accede a purecss.io y se copia el código de la sección "Get Started", la página propondrá 
+    diferentes estilos. Vamos a ver los botones en este ejemplo. -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+    />
+</head>
+<body>
+    <p>Hola</p>
+    <!-- EJEMPLO DE LOS BOTONES CON purecss.io: -->
+    <!-- se va a ver un estilo de botón definido en purecss.io: -->
+    <button class="pure-button pure-button-primary">Esto es un botón</button>
+    <!-- FORMA 4 de agregar estilos: ESTILOS INLINE: 
+        para modificar nosotros un botón por nuestra cuenta desde la propia etiqueta: -->
+    <button style="padding: 10px; border: none; border-radius: 10px;">Botón personalizado</button>
+        <!-- padding: para agregar espacio dentro del botón ("agrandarlo")
+            border: quitarle la línea de borde
+            border-radius: para que acabe con un radio y no como un cuadrado completo -->
+</body>
+</html>
