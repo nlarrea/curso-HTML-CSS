@@ -4,7 +4,7 @@
 	<sub>*Tienes más información sobre ello en el apartado <a href="#openBootcamp">Open Bootcamp</a> mostrado abajo.</sub></p>
 
 <p align="justify">Dichos archivos están divididos en dos carpetas principales (<a href="https://github.com/NLarrea/Curso-HTML-CSS/tree/main/TEORIA">TEORIA</a> y <a href="https://github.com/NLarrea/Curso-HTML-CSS/tree/main/EJERCICIOS">EJERCICIOS</a>) con los que podrás aprender, practicar o simplemente ojear su contenido.
-Como siempre, los ejercicios están resueltos por mí, pero **se agradece cualquier tipo de sugerencia** que se quiera aportar con el objetivo de adquirir mayor conocimiento.</p>
+Como siempre, los ejercicios están resueltos por mí, pero <strong>se agradece cualquier tipo de sugerencia</strong> que se quiera aportar con el objetivo de adquirir mayor conocimiento.</p>
 
 ### Índice de los temarios
 * **#1** - [`ETIQUETAS Y ATRIBUTOS`](https://github.com/NLarrea/Curso-HTML-CSS/tree/main/TEORIA/01-Etiquetas_y_atributos)
