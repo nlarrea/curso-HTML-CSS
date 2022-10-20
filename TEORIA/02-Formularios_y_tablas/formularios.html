@@ -6,7 +6,8 @@
     </head>
     <body>
         <form action="resultados.html" method="get">
-            <!-- los label hacen referencia a los input con ese nombre -->
+            <!-- los label hacen referencia a los input, para que funcione, en el atributo for del <label>
+            sebe estar escrito el mismo string que en el atributo id del <input> -->
             <div>
                 <label for="nombreusuario">Introducción de usuario</label> 
                 <input type="text" name="nombreusuario" id="nombreusuario" required>
@@ -37,7 +38,9 @@
                 <textarea name="comentarios" id="comentarios"></textarea>
             </div>
             <br>
+            <!-- botón de tipo reset, para vaciar los campos del formulario -->
             <button type="reset">Reset</button>
+            <!-- botón de tipo submit, para realizar la acción del formulario -->
             <button type="submit">Enviar</button>
         </form>
     </body>
