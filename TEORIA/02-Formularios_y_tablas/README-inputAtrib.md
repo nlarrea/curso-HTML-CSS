@@ -31,7 +31,7 @@ Este atributo permite especificar un valor inicial por defecto para un elemento 
 
 En este ejemplo se muestra cómo la entrada *"Nombre"* tiene un valor inicial asignado, sin embargo, *"Apellido"* no, por eso aparece vacío. El usuario puede cambiar ambos valores por los deseados:
 
-```
+```HTML
 <form>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" value="Naia">
@@ -40,9 +40,13 @@ En este ejemplo se muestra cómo la entrada *"Nombre"* tiene un valor inicial as
 </form>
 ```
 
+<br>
+
 He aquí el resultado:
 
 ![1-value](https://user-images.githubusercontent.com/110897750/196882132-7d6de24f-c9c6-4351-bc2d-a603d4106a37.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -55,7 +59,7 @@ Los inputs con este atributo no pueden ser editados. El usuario podrá acceder a
 
 En este caso, al igual que en el ejemplo anterior, el input *"Nombre"* tiene un valor por defecto, sin embargo, esta vez no puede ser editado:
 
-```
+```HTML
 <form>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" value="Naia" readonly>
@@ -64,11 +68,15 @@ En este caso, al igual que en el ejemplo anterior, el input *"Nombre"* tiene un 
 </form>
 ```
 
+<br>
+
 En un principio, esta imagen parece la misma que la del apartado anterior. Parecen lo mismo aunque no sea así, por ello te invito a que puebes ámbos códigos para ver la diferencia
 
 Este sería el resultado:
 
 ![2-readonly](https://user-images.githubusercontent.com/110897750/196882134-7a3e014b-2a73-4445-b90e-cfa8aaeb6fd7.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -81,7 +89,7 @@ Los inputs de este tipo estarán deshabilitados, tal y como indica su nombre. No
 
 Aquí se muestra un código de ejemplo:
 
-```
+```HTML
 <form>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" value="Naia" disabled>
@@ -90,11 +98,15 @@ Aquí se muestra un código de ejemplo:
 </form>
 ```
 
+<br>
+
 Siguiendo el mismo ejemplo que en los apartados anteriores, esta vez se puede observar una pequeña diferencia entre el input con el atributo disabled y el input que no tiene ningún otro atributo.
 
 He aquí el resultado del ejemplo:
 
 ![3-disabled](https://user-images.githubusercontent.com/110897750/196886639-21078884-31e3-4471-bbc8-b361605fa05f.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -112,9 +124,11 @@ Este atributo especifica la anchura visible en caracteres de un input. Su valor 
 * url
 * search
 
+<br>
+
 He aquí un pequeño ejemplo:
 
-```
+```HTML
 <form>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" size="10">
@@ -123,9 +137,13 @@ He aquí un pequeño ejemplo:
 </form>
 ```
 
+<br>
+
 Aquí se muestra el resultado:
 
 ![4-size](https://user-images.githubusercontent.com/110897750/196882137-7a8f8d68-4d00-4708-84e7-71cbae9c2ae6.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -140,7 +158,7 @@ Se debe tener en cuenta que, a pesar de no aceptar más caractéres de los espec
 
 He aquí un ejemplo de código:
 
-```
+```HTML
 <form>
     <label for="user">ID:</label>
     <input type="text" id="user" maxlength="5" placeholder="12345">
@@ -149,9 +167,13 @@ He aquí un ejemplo de código:
 </form>
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![5-maxlength](https://user-images.githubusercontent.com/110897750/196882139-bb96f29a-7a60-4016-bb56-b0e8e0a6537e.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -170,9 +192,11 @@ Este par de atributos sirven para especificar un valor mínimo y máximo del inp
 * month
 * week
 
+<br>
+
 He aquí un ejemplo de código:
 
-```
+```HTML
 <form>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre">
@@ -181,11 +205,15 @@ He aquí un ejemplo de código:
 </form>
 ```
 
+<br>
+
 Con este ejemplo, no se permite seleccionar una fecha mas actual que la del 2022-10-20. De nuevo, te invito a copiar el código mostrado y probar a introducir los datos.
 
 Este sería el resultado:
 
 ![6-min-max](https://user-images.githubusercontent.com/110897750/196882105-0f2cf643-a0a7-4035-8425-c92c5d80b1f5.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -199,9 +227,11 @@ Este atributo permite al usuario introducir más de un dato en un mismo campo. E
 * email
 * file
 
+<br>
+
 He aquí un ejemplo de código:
 
-```
+```HTML
 <form>
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" size="10">
@@ -210,9 +240,13 @@ He aquí un ejemplo de código:
 </form>
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![7-multiple](https://user-images.githubusercontent.com/110897750/196882110-28ad5ccd-4d5b-426d-9d2b-b906e31c6e5b.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -231,14 +265,18 @@ Este atributo permite especificar una *expresión regular* con la que comparar l
 * url
 * search
 
+<br>
+
 He aquí un ejemplo de código:
 
-```
+```HTML
 <form>
     <label for="usuario">ID de Usuario:</label>
     <input type="text" id="usuario" pattern="[A-z0-9]{5}" title="5 dígitos alfa-numéricos">
 </form>
 ```
+
+<br>
 
 Como tip, se podría añadir el atributo `title`, donde escribir un breve resumen de lo añadido en el atributo `pattern`. Ese atributo funciona en cualquier elemento de HTML y actúa como un tooltip. ¡Te invito a que realices el código mostrado arriba para probarlo!
 
@@ -249,6 +287,8 @@ Si quieres saber más acerca de expresiones regulares, te invito a buscar más i
 Este sería el resultado:
 
 ![8-pattern](https://user-images.githubusercontent.com/110897750/196882112-a9385422-b2c4-46d6-a628-29474cce539d.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -268,9 +308,11 @@ Funciona con los siguientes inputs:
 * url
 * search
 
+<br>
+
 He aquí un pequeño ejemplo:
 
-```
+```HTML
 <form>
     <label for="usuario">Usuario:</label>
     <input type="text" id="usuario" placeholder="user0123">
@@ -279,9 +321,13 @@ He aquí un pequeño ejemplo:
 </form>
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![9-placeholder](https://user-images.githubusercontent.com/110897750/196882115-c7e84106-634a-4be7-8fed-26df5316cbdc.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -304,9 +350,11 @@ Este atributo indica que un input concreto es obligatorio para enviar el formula
 * url
 * search
 
+<br>
+
 He aquí un ejemplo sencillo:
 
-```
+```HTML
 <form>
     <label for="usuario">Usuario:</label>
     <input type="text" id="usuario" required>
@@ -314,9 +362,14 @@ He aquí un ejemplo sencillo:
     <input type="password" id="pword">
 </form>
 ```
+
+<br>
+
 Este sería el resultado:
 
 ![10-required](https://user-images.githubusercontent.com/110897750/196882118-7d18a15f-1879-45ab-ad94-009734ec467f.jpg)
+
+<br>
 
 A simple vista, no se aprecia la diferencia entre tener dicho requisito o no, ambos campos se ven iguales. Pero si el campo con el atributo `required` no está especificado, no permitirá enviar el formulario.
 
@@ -337,20 +390,26 @@ Este atributo permite especificar el intervalo entre un valor y el siguiente. Co
 * month
 * week
 
+<br>
+
 He aquí un ejemplo sencillo:
 
-```
+```HTML
 <form>
     <label for="vol">Volumen:</label>
     <input type="range" id="vol" min="0" max="100" step="10">
 </form>
 ```
 
+<br>
+
 En este ejemplo, a pesar de no apreciarse en la imagen, solo permite mover el valor del rango de 10 en 10. ¡Copia el código y pruébalo en tu editor!
 
 Este sería el resultado:
 
 ![11-step](https://user-images.githubusercontent.com/110897750/196882120-8626a219-07c9-4012-a778-aba0d1e900d6.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -363,7 +422,7 @@ Este atributo hace que el input se vea *"enfocado"* o *"destacado"* desde el mom
 
 He aquí un ejemplo:
 
-```
+```HTML
 <form>
     <label for="usuario">Usuario:</label>
     <input type="text" id="usuario">
@@ -372,11 +431,15 @@ He aquí un ejemplo:
 </form>
 ```
 
+<br>
+
 En este ejemplo, el usuario es llevado automáticamente al campo de *"Email"*.
 
 Este es el resultado:
 
 ![12-autofocus](https://user-images.githubusercontent.com/110897750/196882122-bf64cbe1-64d6-461f-87a3-cb429b2b943a.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -391,16 +454,20 @@ Siempre es recomendable introducir ambos datos, para así indicar a la página c
 
 A continuación, se muestra un ejemplo:
 
-```
+```HTML
 <form>
     <label for="image">Imagen:</label><br>
     <input type="image" id="image" src="../03-Imagenes/img/skyrim.jpg" alt="logo" width="200" height="150">
 </form>
 ```
 
+<br>
+
 Este es el resultado:
 
 ![13-height-width](https://user-images.githubusercontent.com/110897750/196882126-8d54e8d1-1ef9-43c0-a40e-6e94e96954b6.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -413,7 +480,7 @@ Este atributo se utiliza con el elemento `<datalist>`, el cual contiene opciones
 
 He aquí un ejemplo:
 
-```
+```HTML
 <form>
     <input list="consolas">
     <datalist id="consolas">
@@ -424,11 +491,15 @@ He aquí un ejemplo:
 </form>
 ```
 
+<br>
+
 En este ejemplo, se muestra una barra donde el usuario puede escribir. A medida que escriba algo, si coincide con algún valor predefinido, le aparecerá como sugerencia. También puede optar por no escribir y seleccionar el dato de la lista desplegable.
 
 He aquí el resultado:
 
 ![14-list](https://user-images.githubusercontent.com/110897750/196882127-f874fe3f-1ac9-4193-89e6-0618ed64504a.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
 
@@ -449,9 +520,11 @@ Este atributo especifica si un campo debe ser autocompletado o no. Si está acti
 * color
 * search
 
+<br>
+
 He aquí un ejemplo:
 
-```
+```HTML
 <form autocomplete="on">
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre">
@@ -460,11 +533,15 @@ He aquí un ejemplo:
 </form>
 ```
 
+<br>
+
 En este caso, permitirá autocompletar todos los campos excepto aquel que esté marcado como `autocomplete="off"`, donde el buscador no ofrecerá ningún valor posible. ¡Prueba el código por tu cuenta para ver las diferencias entre ambos campos!
 
 Este es el resultado:
 
 ![15-autocomplete](https://user-images.githubusercontent.com/110897750/196882129-9384db7f-bb53-43b4-a9ef-b9a51001d1f1.jpg)
+
+<br>
 
 <sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md).</sub>
 
