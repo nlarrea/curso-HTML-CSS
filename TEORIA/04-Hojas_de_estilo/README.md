@@ -28,6 +28,8 @@ He aquí un pequeño ejemplo:
 <h1 style="color: goldenrod;">Este es un título de prueba</h1>
 ```
 
+<br>
+
 2. **Insertar código de estilo en el documento HTML con `<style>`:**
 
 He aquí un ejemplo:
@@ -45,6 +47,8 @@ He aquí un ejemplo:
 	<h1>Este es un título de prueba</h1>
 </body>
 ```
+
+<br>
 
 3. **Insertar hojas de forma externa:**
 
@@ -70,9 +74,13 @@ h1 {
 }
 ```
 
+<br>
+
 **En los 3 ejemplos se obtiene el mismo resultado**, donde se consigue cambiar el color del encabezado:
 
 ![1-addStyles](https://user-images.githubusercontent.com/110897750/197635041-05bcfe12-f395-49fa-b0a9-20c86fb1c801.jpg)
+
+<br>
 
 Si se utilizaran los tres ejemplos mostrados a la vez, cada uno con un color, el color mostrado sería el del ejemplo 1, puesto que es el que más especificidad tiene. Si ese no estuviera, se mostraría el del caso 2, y así sucesivamente.
 
@@ -104,6 +112,8 @@ img {
 }
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![2-width-height](https://user-images.githubusercontent.com/110897750/197635047-49bfdd3c-ce6e-4b8b-9467-64b31473682a.jpg)
@@ -132,11 +142,15 @@ Pueden añadirse bordes de diferentes estilos a cualquier elemento del HTML con 
 * `hidden`: oculta el borde.
 * **Añadir hasta 4:** si se añaden 4 de estos estilos, el primero afectara al superior, el segundo al derecho, el tercero al inferior y el cuarto al izquierdo. Consiguiendo así un elemento con 4 estilos de borde distintos.
 
+<br>
+
 2. **`border-width`**
 
 Puede escogerse el ancho del borde con la propiedad `border-width`, donde se le puede dar un valor tanto en pixels como en otros ya definidos (*thick*, *medium*, etc.).
 
 Se le puede dar más de un valor a la propiedad, indicando así a cuál de los bordes queremos que se le aplique el estilo.
+
+<br>
 
 3. **`border-color`**
 
@@ -152,6 +166,8 @@ h1 {
 }
 ```
 
+<br>
+
 * **De forma hexadecimal:** para añadir colores de forma hexadecimal es necesario escribir el color precedido por `#`.
 
 ```CSS
@@ -161,6 +177,8 @@ h1 {
 	border-color: #cea135;
 }
 ```
+
+<br>
 
 * **Colores RGB:** se especifican escribiendo `rgb()` con los colores dentro separados por comas.
 
@@ -172,6 +190,8 @@ h1 {
 }
 ```
 
+<br>
+
 * **Colores RGBA:** son iguales que los colores **RGB pero añadiendo** un parámetro más entre paréntesis: la **opacidad**.
 
 ```CSS
@@ -181,6 +201,8 @@ h1 {
 	border-color: rgba(255, 192, 199, 0.5);
 }
 ```
+
+<br>
 
 4. **Escribirlo en una única línea**
 
@@ -192,6 +214,8 @@ h1 {
 }
 ```
 
+<br>
+
 5. **Escoger el lado del borde**
 
 En ocasiones conviene que solo sea aplicado el estilo en uno de los lados del elemento. Por ello, se puede hacer uso de las siguietnes propiedades:
@@ -200,6 +224,8 @@ En ocasiones conviene que solo sea aplicado el estilo en uno de los lados del el
 * `border-right`
 * `border-bottom`
 * `border-left`
+
+<br>
 
 Aquí se muestra un ejemplo de un texto rodeado con un borde al que se le ha cambiado el color y definido su estilo:
 
@@ -221,6 +247,8 @@ Al igual que se ha visto en el apartado anterior, se puede especificar qué marg
 * `margin-right`
 * `margin-bottom`
 * `margin-left`
+
+<br>
 
 Se puede utilizar también `margin` sin especificar el lado y añadir hasta 4 valores dentro del mismo:
 
@@ -253,6 +281,8 @@ Se pueden aplicar muchísimos estilos a los fondos de los elementos o de la pág
 
 En este punto vamos a desplegar todos sus valores posibles en diferentes propiedades para que se vean de forma más clara, pero al igual que con los bordes, se puede utilizar una propiedad única que recoge todas las que vamos a ver, llamada `background`.
 
+<br>
+
 1. **`background-color`**
 
 Con esta propiedad se puede definir un color de fondo para cualquier elemento de la siguiente manera:
@@ -264,11 +294,17 @@ h1 {
 }
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![1-color](https://user-images.githubusercontent.com/110897750/197635291-927e63c7-5b5f-4a7a-8ee0-63ab0fb0856a.jpg)
 
+<br>
+
 Se le puede añadir la propiedad `opacity` para que el color de fondo tenga menos opacidad.
+
+<br>
 
 2. **`background-image`**
 
@@ -283,11 +319,17 @@ h1 {
 }
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![2-image](https://user-images.githubusercontent.com/110897750/197635293-07265ce4-8edc-47df-a468-20987dc71d13.jpg)
 
+<br>
+
 Se puede utilizar la propiedad `background-position` para especificar qué parte de la imagen se desea ver, indicando el eje X y el Y.
+
+<br>
 
 3. **`background-repeat`**
 
@@ -299,6 +341,8 @@ Estos son sus valores posibles:
 * `repeat-y`: para sólo permitir que se repita en el eje y.
 * `no-repeat`: para evitar que se repita.
 
+<br>
+
 Por defecto, la imagen podrá repetirse en ambos ejes. He aquí un ejemplo:
 
 ```CSS
@@ -309,9 +353,13 @@ h1 {
 }
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![3-repeat](https://user-images.githubusercontent.com/110897750/197635298-9f32732f-08dd-462c-8d94-90dd78db8bdc.jpg)
+
+<br>
 
 4. **`background-attachment`**
 
@@ -322,6 +370,8 @@ Estos son los dos valores posibles:
 * `scroll`: permite a la imagen moverse con el contenido de la página.
 * `fixed`: la imagen de fondo se queda fija. Hace parecer que el contenido se desliza encima de ella.
 
+<br>
+
 He aquí un ejemplo:
 
 ```CSS
@@ -330,6 +380,8 @@ He aquí un ejemplo:
 	background-attachment: fixed;
 }
 ```
+
+<br>
 
 Este sería el resultado:
 
@@ -345,6 +397,8 @@ Este sería el resultado:
 
 Los textos tienen muchísimas opciones posibles. En este apartado se va a hablar únicamente de alguna de las más usadas.
 
+<br>
+
 1. **Cambiar el color del texto**
 
 Para cambiar el color de cualquier texto, basta con usar la propiedad `color`. De la misma forma que la ya vista en los [bordes](#border), el color puede definirse por **nombre**, **de forma hexadecirmal**, como **RGB**, o como **RGBA**.
@@ -357,9 +411,13 @@ p {
 }
 ```
 
+<br>
+
 Este sería el resultado de dicho código:
 
 ![1-color](https://user-images.githubusercontent.com/110897750/197635523-553f14e1-863d-4825-9a43-1e5f6b01ed02.jpg)
+
+<br>
 
 2. **Alinear el texto**
 
@@ -375,6 +433,8 @@ Se puede alinear el texto de múltiples maneras y con varias opciones distintas.
   * `middle`
   * `bottom`
 
+<br>
+
 He aquí un ejemplo simple:
 
 ```CSS
@@ -383,11 +443,17 @@ button {
 }
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![2-align](https://user-images.githubusercontent.com/110897750/197635525-59469a7a-f4b4-46ce-a3e2-5dded8329f16.jpg)
 
+<br>
+
 En este caso, se han utilizado botones como ejemplo para que se aprecie más el resultado.
+
+<br>
 
 3. **Decorar el texto**
 
@@ -398,6 +464,8 @@ Existen muchísimas posibilidades para poder decorar el texto. Para ello se usa 
 * `text-decoration-style`: permite indicar qué tipo de línea va a ser.
 * `text-decoration-thickness`: permite modificar el grosor de la línea.
 
+<br>
+
 He aquí un ejemplo:
 
 ```CSS
@@ -406,9 +474,13 @@ p {
 }
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![3-decoration](https://user-images.githubusercontent.com/110897750/197635527-9ebefdaa-4b8f-43ea-8250-338157722923.jpg)
+
+<br>
 
 4. **Transformar el texto**
 
@@ -418,6 +490,8 @@ Como ya indica el título, existe una forma de transformar el texto, su formato 
 * `lowercase`: hace que todas las letras se vean en minúscula.
 * `capitalize`: hace que la primera letra de cada palabra se vea mayúscula.
 
+<br>
+
 Este sería un ejemplo sencillo:
 
 ```CSS
@@ -426,9 +500,13 @@ p {
 }
 ```
 
+<br>
+
 Y este su resultado:
 
 ![4-transform](https://user-images.githubusercontent.com/110897750/197635528-0a942d45-7890-4931-b56c-8c838b0a72f1.jpg)
+
+<br>
 
 5. **Espaciado del texto**
 
