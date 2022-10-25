@@ -17,8 +17,6 @@ El contenido de las tablas no es nada extenso, por lo que su contenido básico s
   * [`<fieldset> y <legend>`](#fieldset-legend)
   * [`<datalist>`](#datalist)
   * [`<output>`](#output)
-  * [`<option>`](#option)
-  * [`<optgroup>`](#optgroup)
 * [`TABLAS`](#tabla)
 
 
@@ -30,7 +28,9 @@ El contenido de las tablas no es nada extenso, por lo que su contenido básico s
 
 Antes de comenzar, convendría saber qué es un formulario, o qué aspecto suelen tener. Por ello, a continuación se muestra una imagen con el ejempli de uno de ellos:
 
-<img src="https://user-images.githubusercontent.com/110897750/196996079-a7171134-12b5-43ca-ac5f-c42a28187f25.jpg" alt="formulario" width="400"><br>
+<img src="https://user-images.githubusercontent.com/110897750/196996079-a7171134-12b5-43ca-ac5f-c42a28187f25.jpg" alt="formulario" width="400">
+
+<br>
 
 Para crear un formulario es necesatio utilizar las etiquetas específicas para ello: como siempre, `<form>` para abrir y `</form>` para cerrar. Todos los elementos contenidos en su interior, formarán el formulario.
 
@@ -46,8 +46,6 @@ He aquí una lista que contiene todos los elementos disponibles en un formulario
 * [`<fieldset> y <legend>`](#fieldset-legend)
 * [`<datalist>`](#datalist)
 * [`<output>`](#output)
-* [`<option>`](#option)
-* [`<optgroup>`](#optgroup)
 
 
 <br><hr>
@@ -59,12 +57,14 @@ Este es el elemento más utilizado en los formularios, como siempre, se crean ha
 
 He aquí un ejemplo sencillo de un par de elementos de este tipo:
 
-```
+```HTML
 <form>
 	<input type="text" id="uname" name="username">
 	<input type="password" id="pword">
 </form>
 ```
+
+<br>
 
 Como ya se ha mencionado, existen muchísitmos tipos de inputs distintos, todos ellos serán explicados a lo largo de [esta guía](README-inputTypes.md). Además, también se dispone de [esta otra guía](README-inputAtrib.md) donde se mostrarán cuáles son los atributos más usados. Haz clic en dicho enlace para acceder a la página correspondiente.
 
@@ -84,16 +84,20 @@ Para poder *"emparejar"* los `<input>` con los `<label>`, el atributo `for` de l
 
 He aquí un pequeño ejemplo:
 
-```
+```HTML
 <form>
 	<input type="checkbox" id="box">
 	<label for="box">He leído y acepto los Términos y condiciones.</label>
 </form>
 ```
 
+<br>
+
 Este sería su resultado:
 
 ![2-label](https://user-images.githubusercontent.com/110897750/196996058-c67ce677-7c27-4e82-820a-17fb7b58003f.jpg)
+
+<br>
 
 Gracias a este código, el usuario puede seleccionar la casilla haciendo clic en el texto que la acompaña en lugar de tener que clicar esplícitamente en la propia casilla.
 
@@ -111,7 +115,7 @@ Se debe utilizar acompañado del elemento `<option>`, el cual sirve para definir
 
 He aquí un ejemplo:
 
-```
+```HTML
 <form>
 	<label for="sist">Selecciona tu sistema operativo:</label>
 	<select id="sist">
@@ -122,9 +126,13 @@ He aquí un ejemplo:
 </form>
 ```
 
+<br>
+
 Este sería el resultado de dicho código:
 
 ![3-select](https://user-images.githubusercontent.com/110897750/196996063-97303d10-2e9d-467c-826b-0fd75df63e49.jpg)
+
+<br>
 
 Como se puede ver, por defecto está seleccionada la primera de las opciones. Sin embargo, esto puede modificarse utilizando el atributo `selected` en aquel elemento que se desee definir como pre-seleccionado.
 
@@ -144,15 +152,19 @@ Tiene atributos como `rows` y `cols` que permiten definir el tamaño del input. 
 
 He aquí un ejemplo:
 
-```
+```HTML
 <form>
 	<textarea name="mensaje" id="msg" cols="30" rows="10">Este es un mensaje dentro del textarea.</textarea>
 </form>
 ```
 
+<br>
+
 Este sería el resultado del código:
 
 ![4-textarea](https://user-images.githubusercontent.com/110897750/196996068-c7a14b3b-ba00-48db-8b41-45d844825b33.jpg)
+
+<br>
 
 <sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
 
@@ -168,17 +180,21 @@ Se recomienda especificar siempre el tipo del botón mediante el atributo `type`
 
 Aquí te dejo un ejemplo sencillo:
 
-```
+```HTML
 <form>
 	<button type="button" onclick="alert('Hello World!')">¡Te mando un saludo!</button>
 </form>
 ```
+
+<br>
 
 ¡Te invito a copiar el código mostrado y ejecutarlo por tu cuenta!
 
 He aquí el resultado del botón:
 
 ![5-button](https://user-images.githubusercontent.com/110897750/196996069-1646c76a-d41d-49ac-8fdc-fa191ca06e5f.jpg)
+
+<br>
 
 <sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
 
@@ -192,7 +208,7 @@ El elemento `<fieldset>` se utiliza para crear un grupo de elementos en los form
 
 He aquí un breve ejemplo:
 
-```
+```HTML
 <form>
 	<fieldset>
 		<legend>Datos personales:</legend>
@@ -204,9 +220,13 @@ He aquí un breve ejemplo:
 </form>
 ```
 
+<br>
+
 Este es el resultado del código mostrado:
 
 ![6-fieldset-legend](https://user-images.githubusercontent.com/110897750/196996070-16c81779-68f9-4e1f-a797-5b40acbe97d6.jpg)
+
+<br>
 
 <sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
 
@@ -222,7 +242,7 @@ El atributo `list` del elemento `<input>` debe coincidir con el atributo `id` de
 
 Este es un ejemplo sencillo:
 
-```
+```HTML
 <form>
 	<input type="text" list="browsers">
 	<datalist id="browsers">
@@ -234,9 +254,13 @@ Este es un ejemplo sencillo:
 </form>
 ```
 
+<br>
+
 Este sería el resultado de dicho código:
 
 ![7-datalist](https://user-images.githubusercontent.com/110897750/196996072-05bf1c7f-ea21-4580-95a4-2425b6b1eddb.jpg)
+
+<br>
 
 <sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
 
@@ -250,7 +274,7 @@ Este elemento permite representar cálculos que hayan sido obtenidos mediante sc
 
 He aquí un ejemplo:
 
-```
+```HTML
 <form oninput="x.value = parseInt(a.value) + parseInt(b.value)">
 	<label for="a">Valor de a:</label>
 	<input type="number" id="a">
@@ -261,9 +285,13 @@ He aquí un ejemplo:
 </form>
 ```
 
+<br>
+
 Este sería el resultado del código:
 
 ![8-output](https://user-images.githubusercontent.com/110897750/196996076-5f7e4d53-6734-47f5-98eb-ee364c85d075.jpg)
+
+<br>
 
 <sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
 
@@ -283,7 +311,7 @@ A la hora de añadir datos, se dispone de las siguientes dos opciones:
 
 He aquí un ejemplo:
 
-```
+```HTML
 <table>
     <tr>
         <th>Nombre</th>
@@ -303,9 +331,13 @@ He aquí un ejemplo:
 </table>
 ```
 
+<br>
+
 Este sería el resultado:
 
 ![tabla](https://user-images.githubusercontent.com/110897750/196996081-860198d3-3cab-42e5-8cac-b7f69c057889.jpg)
+
+<br>
 
 <sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
 
