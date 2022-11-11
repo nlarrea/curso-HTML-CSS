@@ -59,8 +59,8 @@ He aquí un ejemplo sencillo de un par de elementos de este tipo:
 
 ```HTML
 <form>
-	<input type="text" id="uname" name="username">
-	<input type="password" id="pword">
+    <input type="text" id="uname" name="username">
+    <input type="password" id="pword">
 </form>
 ```
 
@@ -86,8 +86,8 @@ He aquí un pequeño ejemplo:
 
 ```HTML
 <form>
-	<input type="checkbox" id="box">
-	<label for="box">He leído y acepto los Términos y condiciones.</label>
+    <input type="checkbox" id="box">
+    <label for="box">He leído y acepto los Términos y condiciones.</label>
 </form>
 ```
 
@@ -117,12 +117,12 @@ He aquí un ejemplo:
 
 ```HTML
 <form>
-	<label for="sist">Selecciona tu sistema operativo:</label>
-	<select id="sist">
-		<option value="windows">Windows</option>
-		<option value="linux">Linux</option>
-		<option value="apple">Apple</option>
-	</select>
+    <label for="sist">Selecciona tu sistema operativo:</label>
+    <select id="sist">
+        <option value="windows">Windows</option>
+        <option value="linux">Linux</option>
+        <option value="apple">Apple</option>
+    </select>
 </form>
 ```
 
@@ -154,7 +154,7 @@ He aquí un ejemplo:
 
 ```HTML
 <form>
-	<textarea name="mensaje" id="msg" cols="30" rows="10">Este es un mensaje dentro del textarea.</textarea>
+    <textarea name="mensaje" id="msg" cols="30" rows="10">Este es un mensaje dentro del textarea.</textarea>
 </form>
 ```
 
@@ -182,7 +182,7 @@ Aquí te dejo un ejemplo sencillo:
 
 ```HTML
 <form>
-	<button type="button" onclick="alert('Hello World!')">¡Te mando un saludo!</button>
+    <button type="button" onclick="alert('Hello World!')">¡Te mando un saludo!</button>
 </form>
 ```
 
@@ -210,13 +210,13 @@ He aquí un breve ejemplo:
 
 ```HTML
 <form>
-	<fieldset>
-		<legend>Datos personales:</legend>
-		<label for="nombre">Nombre:</label>
-		<input type="text" id="nombre" placeholder="Tu nombre"><br>
-		<label for="apellido">Apellido:</label>
-		<input type="text" id="apellido" placeholder="Tu apellido">
-	</fieldset>
+    <fieldset>
+        <legend>Datos personales:</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Tu nombre"><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Tu apellido">
+    </fieldset>
 </form>
 ```
 
@@ -244,13 +244,13 @@ Este es un ejemplo sencillo:
 
 ```HTML
 <form>
-	<input type="text" list="browsers">
-	<datalist id="browsers">
-		<option value="Internet Explorer"></option>
-		<option value="Firefox"></option>
-		<option value="Chrome"></option>
-		<option value="Opera"></option>
-	</datalist>
+    <input type="text" list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+    </datalist>
 </form>
 ```
 
@@ -276,12 +276,12 @@ He aquí un ejemplo:
 
 ```HTML
 <form oninput="x.value = parseInt(a.value) + parseInt(b.value)">
-	<label for="a">Valor de a:</label>
-	<input type="number" id="a">
-	<label for="b">Valor de b:</label>
-	<input type="number" id="b"><br>
-	<label for="out">Respuesta: a + b = </label>
-	<output name="x" for="a b" id="out"></output>
+    <label for="a">Valor de a:</label>
+    <input type="number" id="a">
+    <label for="b">Valor de b:</label>
+    <input type="number" id="b"><br>
+    <label for="out">Respuesta: a + b = </label>
+    <output name="x" for="a b" id="out"></output>
 </form>
 ```
 

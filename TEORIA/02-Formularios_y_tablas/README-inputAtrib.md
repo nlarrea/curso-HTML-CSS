@@ -6,21 +6,21 @@ Puede parecer una guía repetitiva, por ello, está planteada más como guía pu
 
 <p id="indice">Como siempre, he aquí un índice que permitirá una navegación más rápida y cómoda:</p>
 
-* [`value`](#value)
-* [`readonly`](#readonly)
-* [`disabled`](#disabled)
-* [`size`](#size)
-* [`maxlength`](#maxlength)
-* [`min y max`](#min-max)
-* [`multiple`](#multiple)
-* [`pattern`](#pattern)
-* [`placeholder`](#placeholder)
-* [`required`](#required)
-* [`step`](#step)
-* [`autofocus`](#autofocus)
-* [`height y width`](#height-width)
-* [`list`](#list)
-* [`autocomplete`](#autocomplete)
+* [value](#value)
+* [readonly](#readonly)
+* [disabled](#disabled)
+* [size](#size)
+* [maxlength](#maxlength)
+* [min y max](#min-max)
+* [multiple](#multiple)
+* [pattern](#pattern)
+* [placeholder](#placeholder)
+* [required](#required)
+* [step](#step)
+* [autofocus](#autofocus)
+* [height y width](#height-width)
+* [list](#list)
+* [autocomplete](#autocomplete)
 
 
 <br><hr>
