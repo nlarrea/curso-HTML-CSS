@@ -4,14 +4,14 @@ En este tema se hablará de las hojas de estilo, las cuales nos permiten modific
 
 <p id="indice">Para crear hojas de estilo se utiliza el lenguaje CSS. He aquí un pequeño índice sobre los temas a tratar en esta guía:</p>
 
-* [`AÑADIR ESTILOS AL DOCUMENTO HTML`](#addStyle)
-* [`PROPIEDADES BÁSICAS`](#properties)
-  * [`Ancho (width) y alto (height)`](#width-height)
-  * [`Bordes`](#border)
-  * [`Margen`](#margin)
-  * [`Padding`](#padding)
-  * [`Background`](#background)
-  * [`Textos`](#texts)
+* [AÑADIR ESTILOS AL DOCUMENTO HTML](#addStyle)
+* [PROPIEDADES BÁSICAS](#properties)
+  * [Ancho (width) y alto (height)](#width-height)
+  * [Bordes](#border)
+  * [Margen](#margin)
+  * [Padding](#padding)
+  * [Background](#background)
+  * [Textos](#texts)
 
 <br><hr>
 <hr><br>
@@ -36,15 +36,15 @@ He aquí un ejemplo:
 
 ```HTML
 <head>
-	<!-- aquí habría otros elementos meta, title, etc. -->
-	<style>
-		h1 {
-			color: goldenrod;
-		}
-	</style>
+    <!-- aquí habría otros elementos meta, title, etc. -->
+    <style>
+        h1 {
+            color: goldenrod;
+        }
+    </style>
 </head>
 <body>
-	<h1>Este es un título de prueba</h1>
+    <h1>Este es un título de prueba</h1>
 </body>
 ```
 
@@ -58,11 +58,11 @@ En este bloque se muestra el código HTML:
 
 ```HTML
 <head>
-	<!-- aquí habría otros elementos meta, title, etc. -->
-	<link rel="stylesheet" href="prueba.css">
+    <!-- aquí habría otros elementos meta, title, etc. -->
+    <link rel="stylesheet" href="prueba.css">
 </head>
 <body>
-	<h1>Este es un título de prueba</h1>
+    <h1>Este es un título de prueba</h1>
 </body>
 ```
 
@@ -70,7 +70,7 @@ Y a continuación, se muestra el código del archivo CSS:
 
 ```CSS
 h1 {
-	color: goldenrod;
+    color: goldenrod;
 }
 ```
 
@@ -107,8 +107,8 @@ He aquí un ejemplo sobre cómo definir el tamaño de una imagen introducida en 
 
 ```CSS
 img {
-	width: 500px;
-	height: 100%;
+    width: 500px;
+    height: 100%;
 }
 ```
 
@@ -160,9 +160,9 @@ Esta propiedad permite seleccionar el color del borde. Se pueden especificar col
 
 ```CSS
 h1 {
-	border-style: solid;
-	border-width: 2px;
-	border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
 }
 ```
 
@@ -172,9 +172,9 @@ h1 {
 
 ```CSS
 h1 {
-	border-style: solid;
-	border-width: 2px;
-	border-color: #cea135;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cea135;
 }
 ```
 
@@ -184,9 +184,9 @@ h1 {
 
 ```CSS
 h1 {
-	border-style: solid;
-	border-width: 2px;
-	border-color: rgb(255, 192, 199);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 192, 199);
 }
 ```
 
@@ -196,9 +196,9 @@ h1 {
 
 ```CSS
 h1 {
-	border-style: solid;
-	border-width: 2px;
-	border-color: rgba(255, 192, 199, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 192, 199, 0.5);
 }
 ```
 
@@ -210,7 +210,7 @@ Todo lo visto en este punto puede ser escrito en una sola línea de código haci
 
 ```CSS
 h1 {
-	border: 2px solid #cea135;
+    border: 2px solid #cea135;
 }
 ```
 
@@ -289,8 +289,8 @@ Con esta propiedad se puede definir un color de fondo para cualquier elemento de
 
 ```CSS
 h1 {
-	width: 590px; /* para definir un tamaño */
-	background-color: lightcoral;
+    width: 590px; /* para definir un tamaño */
+    background-color: lightcoral;
 }
 ```
 
@@ -312,10 +312,10 @@ Esta propiedad permite añadir una imagen cualquierda como fondo de un elemento.
 
 ```CSS
 h1 {
-	width: 600px; /* para añadirle una anchura */
-	height: 200px; /* para añadirle una altura */
-	background-image: url("../img/fondo.jpg");
-	background-position: center center;
+    width: 600px; /* para añadirle una anchura */
+    height: 200px; /* para añadirle una altura */
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
 }
 ```
 
@@ -347,9 +347,9 @@ Por defecto, la imagen podrá repetirse en ambos ejes. He aquí un ejemplo:
 
 ```CSS
 h1 {
-	color: red;
-	background-image: url("../github.png");
-	background-repeat: repeat-x;
+    color: red;
+    background-image: url("../github.png");
+    background-repeat: repeat-x;
 }
 ```
 
@@ -376,8 +376,8 @@ He aquí un ejemplo:
 
 ```CSS
 .container {
-	background-image: url("../img/fondo.jpg");
-	background-attachment: fixed;
+    background-image: url("../img/fondo.jpg");
+    background-attachment: fixed;
 }
 ```
 
@@ -407,7 +407,7 @@ He aquí un ejemplo simple:
 
 ```CSS
 p {
-	color: red;
+    color: red;
 }
 ```
 
@@ -439,7 +439,7 @@ He aquí un ejemplo simple:
 
 ```CSS
 button {
-	vertical-align: bottom;
+    vertical-align: bottom;
 }
 ```
 
@@ -470,7 +470,7 @@ He aquí un ejemplo:
 
 ```CSS
 p {
-	text-decoration: underline red solid 2px;
+    text-decoration: underline red solid 2px;
 }
 ```
 
@@ -496,7 +496,7 @@ Este sería un ejemplo sencillo:
 
 ```CSS
 p {
-	text-transform: capitalize;
+    text-transform: capitalize;
 }
 ```
 
