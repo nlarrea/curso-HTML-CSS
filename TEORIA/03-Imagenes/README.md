@@ -4,14 +4,14 @@ Es muy común ver contenido de multimedia (como imágenes, videos, etc.) en pág
 
 <p id="indice">He aquí un pequeño índice del contenido a mostrar en este apartado:</p>
 
-* [`IMÁGENES`](#imagenes)
-  * [`Formatos de imagen permitidos`](#img-format)
-  * [`Sintaxis`](#sintaxis)
-  * [`Formas de introducir una imagen`](#formas)
-  * [`Definir el tamaño de una imagen`](#size)
-  * [`Float`](#float)
-* [`VÍDEOS`](#videos)
-* [`AUDIOS`](#audios)
+* [IMÁGENES](#imagenes)
+  * [Formatos de imagen permitidos](#img-format)
+  * [Sintaxis](#sintaxis)
+  * [Formas de introducir una imagen](#formas)
+  * [Definir el tamaño de una imagen](#size)
+  * [Float](#float)
+* [VÍDEOS](#videos)
+* [AUDIOS](#audios)
 
 
 <br><hr>
@@ -233,7 +233,7 @@ He aquí un pequeño ejemplo con los atributos más básicos:
 
 ```HTML
 <video width="600" height="auto" controls autoplay muted>
-	<source src="img/Arde Bogotá - Big Bang.mp4" type="video/mp4">
+    <source src="img/Arde Bogotá - Big Bang.mp4" type="video/mp4">
 </video>
 ```
 
@@ -277,7 +277,7 @@ Aquí se muestra otro ejemplo básico:
 
 ```HTML
 <audio controls>
-	<source src="img/The Lord of the Rings - Soundtrack - Main theme.mp3" type="audio/mp3">
+    <source src="img/The Lord of the Rings - Soundtrack - Main theme.mp3" type="audio/mp3">
 </audio>
 ```
 
