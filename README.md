@@ -1,4 +1,10 @@
 # Curso-HTML-CSS
+
+[![GitHub language count](https://img.shields.io/github/languages/count/NLarrea/Curso-HTML-CSS?style=flat-square)](#lenguajes-utilizados)
+[![GitHub top language](https://img.shields.io/github/languages/top/NLarrea/Curso-HTML-CSS?style=flat-square)](#lenguajes-utilizados)
+[![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/NLarrea/Curso-HTML-CSS/df80e6c07fc79467d97f6a672190c9d53e81ba47?label=commits%20counter&style=flat-square)](https://github.com/NLarrea/Curso-HTML-CSS/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/NLarrea/Curso-HTML-CSS?style=flat-square)](https://github.com/NLarrea/Curso-HTML-CSS/commits/main)
+
 ## ¿Qué es esto?
 
 <p align="justify">Los archivos que aparecen en este repositorio serán aquellos que realicé durante el curso de HTML y CSS del Bootcamp llamado Open Bootcamp.
@@ -7,7 +13,19 @@
 <p align="justify">Dichos archivos están divididos en dos carpetas principales (<a href="https://github.com/NLarrea/Curso-HTML-CSS/tree/main/TEORIA">TEORIA</a> y <a href="https://github.com/NLarrea/Curso-HTML-CSS/tree/main/EJERCICIOS">EJERCICIOS</a>) con los que podrás aprender, practicar o simplemente ojear su contenido.
 Como siempre, los ejercicios están resueltos por mí, pero <strong>se agradece cualquier tipo de sugerencia</strong> que se quiera aportar con el objetivo de adquirir mayor conocimiento.</p>
 
-### Índice de los temarios
+<br>
+
+### Lenguajes utilizados
+
+Estos son los lenguajes utilizados a lo largo de este curso, te dejo un link con cada uno de ellos donde podrás acceder o a tu página web oficial, o a alguna web de gran utilidad para su aprendizaje:
+
+* [HTML](https://htmlreference.io/) - *¡Construyamos el esqueleto de la web!*
+* [CSS](https://cssreference.io/) - *¿Alguien dijo algo de tener estilo?*
+* [SCSS](https://sass-lang.com/) - *¡Estilos con SUPERPODERES!*
+
+<br>
+
+## Temario del curso - TEORIA
 
 * **#01** - [ETIQUETAS Y ATRIBUTOS](https://github.com/NLarrea/Curso-HTML-CSS/tree/main/TEORIA/01-Etiquetas_y_atributos)
 * **#02** - [FORMULARIOS Y TABLAS](https://github.com/NLarrea/Curso-HTML-CSS/tree/main/TEORIA/02-Formularios_y_tablas)
