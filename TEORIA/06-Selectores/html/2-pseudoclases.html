@@ -9,31 +9,27 @@
             padding: 0;
             margin: 0;
         }
+
         /* PSEUDOCLASE HOVER: */
         .hover {
             width: 300px;
             height: 60px;
             background-color: bisque;
         }
-        /* las pseudoclases son aquellas que se representan con un solo grupo de 2 puntos,
-            la más utilizada es la pseudoclase :hover, he aquí un ejemplo: */
+
         .hover:hover { /* se activa cuando el ratón pasa por encima */
             background-color: burlywood;
         }
+
         /* PSEUDOCLASE FIRST-CHILD: */
         .listado{
             padding: 15px;
             background-color: aquamarine;
         }
-        .listado p:first-child {
-            /* :first-child hace referencia al primer elemento del tipo (etiqueta) que le
-                indiquemos, pero hay que decirle a qué elementos afecta. En este caso, a
-                los elementos del tipo <p> */
+        .listado p:first-child { /* selecciona el primer elemento p */
             color: white;
-            /* si quitáramos el ".listado", afectaría a todos los primeros <p> de cada grupo,
-                es decir, que el párrafo dentro de la clase hover tambien se vería afectado,
-                porque es el primer párrafo de su grupo "div" */
         }
+
         /* PSEUDOCLASES PARA LOS ENLACES: */
         a:link { /* hace referencia a los link NO visitados todavía */
             color: green;
