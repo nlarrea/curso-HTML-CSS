@@ -13,6 +13,12 @@ Es muy común ver contenido de multimedia (como imágenes, videos, etc.) en pág
 * [VÍDEOS](#videos)
 * [AUDIOS](#audios)
 
+<br>
+
+<sub>* [Ver código](./multimedia.html)</sub>
+
+[<< TEMA 2](../02-Formularios_y_tablas/README.md#formularios-y-tablas) | [TEMA 4 >>](../04-Hojas_de_estilo/README.md#introducción-a-css)
+
 
 <br><hr>
 <hr><br>
@@ -41,7 +47,7 @@ En primer lugar, hay que tener en cuenta que no todos los formatos de imagen son
 
 <br>
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Vídeos](#videos)</sub>
 
 
 <br><hr>
@@ -79,7 +85,7 @@ Es por ello que **es importante definir bien el contenido de ambos**. Aquí se m
 
 <br>
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Vídeos](#videos)</sub>
 
 
 <br><hr>
@@ -129,7 +135,7 @@ Para demostrar que funciona:
 
 <br>
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Vídeos](#videos)</sub>
 
 
 <br><hr>
@@ -173,7 +179,7 @@ Se pueden utilizar estos dos atributos independientes sin la necesidad de usar e
 
 En ambos casos se ha obtenido el mismo resultado. Sin embargo, **¿cuál es la mejor de las dos opciones?** Personalmente, creo que es mejor la primera opción, porque permite realizar lo mismo que la segunda, asegurando que no se pueda modificar sin querer su tamaño desde CSS.
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Vídeos](#videos)</sub>
 
 
 <br><hr>
@@ -199,7 +205,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Vídeos](#videos)</sub>
 
 
 <br><hr>
@@ -245,7 +251,7 @@ Este sería el resultado de dicho código:
 
 <br>
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Audios](#audios)</sub>
 
 
 <br><hr>
@@ -289,7 +295,11 @@ Esto es lo que se podría ver en la página:
 
 <br>
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
+
+<br>
+
+[<< TEMA 2](../02-Formularios_y_tablas/README.md#formularios-y-tablas) | [TEMA 4 >>](../04-Hojas_de_estilo/README.md#introducción-a-css)
 
 
 <br><hr>

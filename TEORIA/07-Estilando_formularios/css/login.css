@@ -113,7 +113,7 @@ label span { /* Genérico para los span de los labels */
 .section-inputs label input { /* Inputs de Name y Username */
     width: 80%; /* para que no choquen entré sí las barras de texto */
     background-color: #fef3f4;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 10px;
     padding: 10px 20px;
     outline: none;
@@ -124,7 +124,7 @@ label input { /* Genérico para los inputs de los labels */
     /* afecta a email y password */
     width: 90%; /* para que se espandan hasta donde acaba el de username */
     background-color: #fef3f4;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 10px;
     padding: 10px 20px;
     outline: none;

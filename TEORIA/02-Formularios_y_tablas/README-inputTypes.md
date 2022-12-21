@@ -28,6 +28,10 @@ Puede parecer una guía repetitiva, por ello, está planteada más como guía pu
 * [range](#range)
 * [search](#search)
 
+<br>
+
+[<< FORMULARIOS Y TABLAS](./README.md#formularios-y-tablas) | [ATRIBUTOS >>](./README-inputAtrib.md#atributos-de-los-inputs)
+
 
 <br><hr>
 
@@ -53,7 +57,7 @@ Y este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -79,7 +83,7 @@ Y este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -107,7 +111,7 @@ El resultado del código anterior sería el siguiente:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -135,7 +139,7 @@ Este es el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -168,7 +172,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -199,7 +203,7 @@ He aquí el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -227,7 +231,7 @@ Y este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -254,7 +258,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -281,7 +285,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -308,7 +312,7 @@ He aquí el resultado de dicho código:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -337,7 +341,7 @@ He aquí el resultado del código mostrado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -366,7 +370,7 @@ He aquí el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -393,7 +397,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -420,7 +424,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -447,7 +451,7 @@ He aquí el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -474,7 +478,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -503,7 +507,7 @@ Este sería el resultado obtenido:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -530,7 +534,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -556,7 +560,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -583,7 +587,7 @@ Y este sería el resultado:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md), o continuar leyendo esta página.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>
@@ -610,7 +614,7 @@ Este sería el resultado obtenido:
 
 <br>
 
-<sub>* Si deseas volver al índice de tipos de inputs, haz clic [aquí](#indice). De lo contrario, puedes [volver al archivo de formularios y tablas](README.md).</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Atributos >>](./README-inputAtrib.md#atributos-de-los-inputs)</sub>
 
 
 <br><hr>

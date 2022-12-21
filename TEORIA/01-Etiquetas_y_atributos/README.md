@@ -8,6 +8,13 @@ En este apartado de teoría se tratarán los siguientes temas:
 * [LINKS](#links)
 * [LISTAS](#lists)
 
+<br>
+
+<sub>* [Ver código](mi-primera-pagina-web.html)</sub>
+
+[EJERCICIOS](../../EJERCICIOS/) | [TEMA 2 >>](../02-Formularios_y_tablas/README.md#formularios-y-tablas)
+
+
 <br><hr>
 <hr><br>
 
@@ -104,6 +111,10 @@ He aquí un ejemplo:
 Este sería el resultado de dicho código:
 
 ![listas](https://user-images.githubusercontent.com/110897750/195825620-d0b8dd68-2f3c-4a30-a585-6a2655d4515e.jpg)
+
+<br>
+
+[EJERCICIOS](../../EJERCICIOS/) | [TEMA 2 >>](../02-Formularios_y_tablas/README.md#formularios-y-tablas)
 
 <br><hr>
 <hr><br>

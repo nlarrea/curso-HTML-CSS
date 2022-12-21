@@ -21,7 +21,9 @@ Ya se ha mencionado en el archivo de [Disposiciones](README-display.md) que se u
   * [row-gap](#row-gap)
   * [grid-gap](#grid-gap)
 
-<sub>* Puedes volver al archivo de [Disposiciones](README-display.md) o al de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<br>
+
+[Disposición, Posicionamiento y Overflow](../README.md) | [Disposiciones](README-display.md)
 
 
 <br><hr><br>
@@ -163,7 +165,7 @@ Este es el resultado:
 
 ![3-grid-row-start_3](https://user-images.githubusercontent.com/110897750/202167814-b092de92-192a-4a9a-851d-5b0daea07958.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -219,7 +221,7 @@ Este es el resultado:
 
 ![5-grid-row-end_4](https://user-images.githubusercontent.com/110897750/202167819-262369be-30e5-4d00-9ad4-c3ae295d129b.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -256,7 +258,7 @@ Este es el resultado de dicho código:
 
 ![6-grid-column--grid-row](https://user-images.githubusercontent.com/110897750/202167824-4ef92e72-2ce8-4582-8258-422772158b8f.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -288,7 +290,7 @@ Como se puede observar en la imagen a continuación, se ha conseguido el mismo r
 
 ![7-grid-area](https://user-images.githubusercontent.com/110897750/202167825-181c8977-df34-418b-9e4f-eb612f677b8b.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -390,7 +392,7 @@ Este es el resultado:
 
 ![9-grid-auto-flow_column](https://user-images.githubusercontent.com/110897750/202167830-545cf013-cbc9-4287-b14e-fd5e6951629b.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -482,7 +484,7 @@ Este es el resultado:
 
 ![10-grid-template-columns--grid-template-rows](https://user-images.githubusercontent.com/110897750/202167834-d0958bf8-e68f-4776-a80a-378ac3c8d6cc.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -536,7 +538,7 @@ Este es el resultado:
 
 ![11-grid-template-areas](https://user-images.githubusercontent.com/110897750/202167837-b3d65983-de30-404d-bad2-7a0a1fdda0bf.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -614,7 +616,7 @@ Este es el resultado:
 
 ![12-grid-template-2](https://user-images.githubusercontent.com/110897750/202167843-75e07355-0f2e-401e-b6cb-c70b98f8b25a.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -714,7 +716,7 @@ Este es el resultado:
 
 ![14-grid-auto-rows](https://user-images.githubusercontent.com/110897750/202167848-09668b64-ca4e-484b-935e-34224da33221.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -774,7 +776,7 @@ Este es el resultado:
 
 ![15-grid](https://user-images.githubusercontent.com/110897750/202167849-5d920a75-46ee-4089-82fa-d60de4c47acc.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -856,7 +858,7 @@ Este es el resultado:
 
 ![16-column-gap](https://user-images.githubusercontent.com/110897750/202167851-96ce6ebf-6e10-4be6-877c-87eb803268ba.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -882,7 +884,7 @@ Este es el resultado:
 
 ![17-row-gap](https://user-images.githubusercontent.com/110897750/202167854-4d97a9d5-685c-4e7a-ae48-a6ee0f9a65ce.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -913,7 +915,7 @@ Este es el resultado de dicho código:
 
 ![18-grid-gap](https://user-images.githubusercontent.com/110897750/202167856-50a12cb9-8fd5-4fb6-a4e3-a7d5327c1e78.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>

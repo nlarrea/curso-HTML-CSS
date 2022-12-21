@@ -16,7 +16,9 @@ Como ya se ha mencionado en el apartado anterior, en este archivo se hablará ú
   * [Combinador de descendencia](#combinador-de-descendencia)
   * [Combinador de hijo](#combinador-de-hijo)
 
-<sub>* Si lo deseas, puedes volver al archivo de [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos).</sub>
+<br>
+
+[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos)
 
 
 <br><hr><br>
@@ -33,9 +35,9 @@ El código HTML utilizado será el mostrado a continuación:
 <p>Esto es un párrafo</p><br>
 <p class="parrafo">Esto es un párrafo con clase</p><br>
 <p id="parrafo">Esto es un párrafo con id</p><br>
-<a href="https://github.com/NLarrea">
+<a href="https://github.com/nlarrea">
     <i class="bi bi-github"></i>
-    NLarrea
+    nlarrea
 </a><br>
 <a href="https://twitter.com/nloust_">
     <i class="bi bi-twitter"></i>
@@ -97,7 +99,7 @@ Este sería el resultado del código CSS anterior:
 
 El selector de tipo es el más sencillo de todos los selectores, pero también es el menos eficiente. Por ello, se recomienda utilizar los selectores de clase y de ID en lugar del selector de tipo.
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -137,7 +139,7 @@ Este sería el resultado del código CSS anterior:
 
 El selector de clase es el selector más utilizado de todos los selectores. Permite especificar a qué elemento se desea aplicar el formato indicado, por ello, se recomienda utilizar el selector de clase en lugar del selector de tipo.
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -177,7 +179,7 @@ Este sería el resultado del código CSS anterior:
 
 El selector de ID es el selector menos utilizado de todos los selectores. Se utiliza el selector de clase en las ocasiones donde se quiera aplicar un estilo a elementos concretos. El selector de ID se utiliza para seleccionar un elemento HTML en específico ya que no se puede utilizar el mismo ID para dos elementos HTML diferentes.
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -225,7 +227,7 @@ Existen varias opciones para los selectores de atributo. A continuación, se mue
 * `selector[atributo$="valor"]` - Selecciona todos los elementos HTML en los que el valor de dicho atributo **termine por** el valor indicado.
 * `selector[atributo*="valor"]` - Selecciona todos los elementos HTML en los que el valor de dicho atributo **contenga** el valor indicado.
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -261,7 +263,7 @@ Este sería el resultado del código CSS anterior:
 
 ![5-selector-universal](https://user-images.githubusercontent.com/110897750/203103626-114b5a5e-a526-43bb-95b3-dd1db0591d5c.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -282,10 +284,10 @@ El código HTML que se utilizará en este apartado es el siguiente:
     <p>Esto es un párrafo hermano de h1 y otros p</p>
 </div>
 <p>Esto es un párrafo suelto</p>
-<a href="https://github.com/NLarrea">
+<a href="https://github.com/nlarrea">
     <span>
         <i class="bi bi-github"></i>
-        NLarrea
+        nlarrea
     </span>
 </a>
 <a href="https://twitter.com/nloust_">
@@ -336,7 +338,7 @@ Este sería el resultado del código CSS anterior:
 
 ![7-combinador-de-hermanos-adyacentes](https://user-images.githubusercontent.com/110897750/203103628-07ea30fb-07ca-4dc2-8c91-379d066716de.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -372,7 +374,7 @@ Este sería el resultado del código CSS anterior:
 
 ![8-combinador-de-hermanos-generales](https://user-images.githubusercontent.com/110897750/203103631-d9a670ae-4f58-4995-ade9-98b23cc94c66.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -408,7 +410,7 @@ Este sería el resultado del código CSS anterior:
 
 ![9-combinador-de-descendencia](https://user-images.githubusercontent.com/110897750/203103637-2776128e-3462-42ba-9a03-0c1d2d7ee800.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -446,7 +448,7 @@ Este sería el resultado del código CSS anterior:
 
 ![10-combinador-de-hijo](https://user-images.githubusercontent.com/110897750/203103640-f0a8226e-74af-4a4b-b3c7-81ab3e7d568a.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>

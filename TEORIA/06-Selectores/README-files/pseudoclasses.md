@@ -40,7 +40,7 @@ En este apartado se va a hablar de las pseudoclases que se pueden utilizar en CS
 * [:valid](#valid)
 * [:visited](#visited)
 
-<sub>* Si lo deseas, puedes volver al archivo de [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos).</sub>
+[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos)
 
 
 <br><hr><br>
@@ -77,7 +77,7 @@ Este sería el resultado antes y después de activar el botón:
 
 ![1-active](https://user-images.githubusercontent.com/110897750/203446662-8eedcb8f-bd3d-46ee-a0bd-2d6b6ca671c7.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -117,7 +117,7 @@ Este sería el resultado antes y después de activar el botón de radio:
 
 ![2-checked](https://user-images.githubusercontent.com/110897750/203446665-bbc6a801-de79-4459-8a9e-76fbbcec7f5b.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -159,7 +159,7 @@ Este sería el resultado:
 
 ![3-default](https://user-images.githubusercontent.com/110897750/203446666-be84998e-5439-4716-ad79-c3547c2c8ad5.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -215,7 +215,7 @@ Este sería el resultado:
 
 ![4-disabled](https://user-images.githubusercontent.com/110897750/203446668-a0954afd-d7fb-429d-95e4-e124b488b2d1.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -259,7 +259,7 @@ Este sería el resultado:
 
 ![5-empty](https://user-images.githubusercontent.com/110897750/203446670-f3201cf8-810b-43fb-839a-d59f406376bc.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -317,7 +317,7 @@ Este sería el resultado:
 
 ![6-enabled](https://user-images.githubusercontent.com/110897750/203446965-7988e82b-eafd-4ea5-ab79-3835fad93a78.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -356,7 +356,7 @@ Este sería el resultado:
 
 ![7-first-child](https://user-images.githubusercontent.com/110897750/203446673-a3483c33-3dbf-4219-82cf-0f50f8cf3de3.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -393,7 +393,7 @@ Este sería el resultado:
 
 ![8-first-of-type](https://user-images.githubusercontent.com/110897750/203446675-9a1b31c5-feac-4175-8fab-a0c63e390c07.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -435,7 +435,7 @@ Este sería el resultado de cada input al ser enfoqueado:
 
 ![9-focus](https://user-images.githubusercontent.com/110897750/203446678-fdccf329-2f99-4882-a27f-678cab1b763a.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -472,7 +472,7 @@ Este sería el resultado:
 
 ![10-hover](https://user-images.githubusercontent.com/110897750/203446681-13cb9c47-fe56-4fc1-b6bf-21593e8be37a.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -517,7 +517,7 @@ Este sería el resultado:
 
 ![11-indeterminate](https://user-images.githubusercontent.com/110897750/203446683-24d7d2ea-cb92-4596-bc40-2f33895e9aef.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -553,7 +553,7 @@ Este sería el resultado:
 
 ![12-in-range](https://user-images.githubusercontent.com/110897750/203446685-d482b9f8-6ee9-4f03-9882-949d9e99b5fb.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -586,7 +586,7 @@ Este sería el resultado:
 
 ![13-invalid](https://user-images.githubusercontent.com/110897750/203446688-3b58e324-2ddb-44fc-b8c0-35ecd8b2f1f3.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -628,7 +628,7 @@ Este sería el resultado:
 
 ![14-lang](https://user-images.githubusercontent.com/110897750/203446689-4cfda62e-3b1f-498d-9714-2fc7dc30296c.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -667,7 +667,7 @@ Este sería el resultado:
 
 ![15-last-child](https://user-images.githubusercontent.com/110897750/203446691-756c6aad-a8c9-48e9-818e-b3251ffca17e.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -704,7 +704,7 @@ Este sería el resultado:
 
 ![16-last-of-type](https://user-images.githubusercontent.com/110897750/203446695-5b01604e-d6ac-4bcb-84a9-7d3c748b61a7.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -732,7 +732,7 @@ He aquí un ejemplo de cómo se puede utilizar:
 }
 ```
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -746,7 +746,7 @@ He aquí un ejemplo de cómo se puede utilizar:
 
 ```html
 <a href="#">Este link no ha sido visitado</a>
-<a href="https://github.com/NLarrea">Este link ha sido visitado</a>
+<a href="https://github.com/nlarrea">Este link ha sido visitado</a>
 ```
 
 <br>
@@ -765,7 +765,7 @@ Este sería el resultado:
 
 ![17-link](https://user-images.githubusercontent.com/110897750/203446697-9ce0784c-99bd-4aa4-a9a0-6787c958dd07.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -800,7 +800,7 @@ Este sería el resultado:
 
 ![18-not](https://user-images.githubusercontent.com/110897750/203446698-743da1ea-6600-4026-a802-5438edfb6e58.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -864,7 +864,7 @@ Este sería el resultado:
 
 ![19-nth-child](https://user-images.githubusercontent.com/110897750/203446699-9ae080e1-defa-4735-bb42-4bd5b6e88cf0.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -899,7 +899,7 @@ Este sería el resultado:
 
 ![20-nth-last-child](https://user-images.githubusercontent.com/110897750/203446700-e43bd0f6-264c-489f-b314-efd9fdc5820e.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -946,7 +946,7 @@ Como se puede observar, el primer párrafo no cambia de color, ya que no es el t
 
 El primer span sí cambia de color ya que es el segundo span contando desde el final, y el segundo span no cambia de color.
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -991,7 +991,7 @@ Este sería el resultado:
 
 En este caso, cambia el color del tercer párrafo y del segundo span, ya que se cuenta desde el principio.
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1030,7 +1030,7 @@ Este sería el resultado:
 
 ![23-only-child](https://user-images.githubusercontent.com/110897750/203446705-2a557d86-89b3-4603-bfbd-a859513adfa3.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1071,7 +1071,7 @@ Este sería el resultado:
 
 ![24-only-of-type](https://user-images.githubusercontent.com/110897750/203446707-cd198251-7f7d-4896-92b5-999dff1c558c.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1113,7 +1113,7 @@ Este sería el resultado:
 
 ![25-optional](https://user-images.githubusercontent.com/110897750/203446710-1cd343c5-e4e3-4688-9320-3350061cbc91.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1153,7 +1153,7 @@ Este sería el resultado:
 
 ![26-out-of-range](https://user-images.githubusercontent.com/110897750/203446711-8bd808c9-1812-4cdd-84de-2fb1d7f55153.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1200,7 +1200,7 @@ Este sería el resultado:
 
 ![27-read-only](https://user-images.githubusercontent.com/110897750/203446712-2c528f13-06c7-4edb-a4c5-f4181dbaa441.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1254,7 +1254,7 @@ Este sería el resultado:
 
 ![28-read-write](https://user-images.githubusercontent.com/110897750/203446713-8e0dac18-4954-47ed-babe-aa29ec4f075c.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1319,7 +1319,7 @@ Este sería el resultado:
 
 ![29-required](https://user-images.githubusercontent.com/110897750/203446717-3cb59c85-5a76-4b9a-86da-222012fb6483.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1347,7 +1347,7 @@ He aquí un ejemplo de cómo se puede utilizar:
 }
 ```
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1390,7 +1390,7 @@ Este sería el resultado:
 
 ![30-root](https://user-images.githubusercontent.com/110897750/203446718-fd6001d8-48c5-4194-b394-fd66fc0f5f9d.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1452,7 +1452,7 @@ Con este código se puede conseguir hacer algo como lo siguiente:
 
 ![31-target3](https://user-images.githubusercontent.com/110897750/203446722-e149b193-0b9a-4a88-8811-7e06598ce1ef.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1491,7 +1491,7 @@ Este sería el resultado en este caso:
 
 ![32-valid](https://user-images.githubusercontent.com/110897750/203446723-b6713f09-9587-4ceb-b5b4-a438360fe5fc.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -1504,9 +1504,9 @@ La pseudoclase `:visited` se usa para seleccionar un enlace que ya ha sido visit
 He aquí un ejemplo:
 
 ```html
-<a href="https://github.com/NLarrea">
+<a href="https://github.com/nlarrea">
     <i class="bi bi-github"></i>
-    NLarrea
+    nlarrea
 </a>
 <br>
 <a href="link">
@@ -1531,7 +1531,7 @@ Este sería el resultado:
 
 ![33-visited](https://user-images.githubusercontent.com/110897750/203446724-e606fad4-e6e0-4b57-8495-adbaf7f37691.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo o volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos).</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>

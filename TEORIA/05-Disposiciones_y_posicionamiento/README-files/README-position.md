@@ -17,7 +17,9 @@ En esta parte de la guía se va a hablar de cómo posicionar los elementos en nu
   * [fixed](#fixed)
   * [sticky](#sticky)
 
-<sub>* Si lo deseas, puedes volver al archivo de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<br>
+
+[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow)
 
 
 <br><hr><br>
@@ -102,7 +104,7 @@ Al indicar `top: 0;` se envía el elemento *"hijo"* a la parte de arriba del tod
 
 ![2-top_absolute](https://user-images.githubusercontent.com/110897750/202427082-e094514d-edcd-4a25-a78a-96942c08c66a.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -154,7 +156,7 @@ Este es el resultado del código mostrado:
 
 ![4-right_absolute](https://user-images.githubusercontent.com/110897750/202427090-b7bdc0bd-2c8a-4e0a-949e-dc0a64603df7.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -204,7 +206,7 @@ Este sería el resultado:
 
 ![6-bottom_absolute](https://user-images.githubusercontent.com/110897750/202427097-63d6b5a7-c721-4ca0-9a40-19701770cfc8.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -256,7 +258,7 @@ Este sería el resultado:
 
 ![8-left_absolute](https://user-images.githubusercontent.com/110897750/202427104-a3a9966b-50f7-46b4-96ce-b043c98d5270.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -349,7 +351,7 @@ Este sería el resultado:
 
 ![10-z-index-solucion](https://user-images.githubusercontent.com/110897750/202427111-d0dc8aa9-ed90-43be-9ea3-23084029f6ed.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -406,7 +408,7 @@ Este sería el resultado:
 
 ![11-position_static](https://user-images.githubusercontent.com/110897750/202427114-4801ee78-64e0-4c8f-8921-11beb2b1123c.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -445,7 +447,7 @@ Este sería el resultado:
 
 ![12-position_relative](https://user-images.githubusercontent.com/110897750/202427119-ffac7414-bba9-4a50-bce6-2611b629489f.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -485,7 +487,7 @@ Este sería el resultado del código:
 
 ![13-position_absolute](https://user-images.githubusercontent.com/110897750/202427121-7f9570de-be83-4976-b9ed-4a4e1a637a9c.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -518,7 +520,7 @@ Y después de hacer *scroll* dicho `div` se mantiene en el mismo lugar:
 
 <img src="https://user-images.githubusercontent.com/110897750/202427132-d87a108b-fc4c-4b0e-ad8c-60b135ffbd2e.jpg" alt="15-position_fixed_2" width="80%"/>
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -551,7 +553,7 @@ Imagen final:
 
 <img src="https://user-images.githubusercontent.com/110897750/202427149-e98e25b6-b9f1-4d6d-8b0c-a4c93399e861.jpg" alt="17-position_fixed_2" width="80%"/>
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>

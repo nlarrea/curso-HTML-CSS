@@ -16,7 +16,9 @@ La diferencia entre los pseudoelementos y las pseudoclases es que los pseudoelem
 * [::placeholder](#placeholder)
 * [::marker](#marker)
 
-<sub>* Si lo deseas, puedes volver al archivo de [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos).</sub>
+<br>
+
+[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos)
 
 
 <br><hr><br>
@@ -65,7 +67,7 @@ Se obtiene el siguiente resultado:
 
 ![1-after](https://user-images.githubusercontent.com/110897750/203524071-a917648c-a99a-41d1-8179-cab7d4883d37.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -103,7 +105,7 @@ Se obtiene el siguiente resultado:
 
 ![2-before](https://user-images.githubusercontent.com/110897750/203524080-8cb0f50f-c64c-4d79-ba85-3e6c801121c6.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -144,7 +146,7 @@ Se obtiene el siguiente resultado:
 
 ![3-first-letter](https://user-images.githubusercontent.com/110897750/203524082-81f77299-2733-4b3a-84d9-d7653dc55bea.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -184,7 +186,7 @@ Se obtiene el siguiente resultado:
 
 ![4-first-line](https://user-images.githubusercontent.com/110897750/203524086-74451aa4-c558-44ce-881c-6bfef645d3ca.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -217,7 +219,7 @@ Se obtiene el siguiente resultado:
 
 ![5-selection](https://user-images.githubusercontent.com/110897750/203524087-a04894cf-8762-4b9f-abb3-8e331e492ffc.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -254,7 +256,7 @@ Se obtiene el siguiente resultado:
 
 ![6-placeholder](https://user-images.githubusercontent.com/110897750/203524090-f1b15381-0b31-4bf8-a884-6029100c6397.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -298,7 +300,7 @@ Se obtiene el siguiente resultado:
 
 ![7-marker](https://user-images.githubusercontent.com/110897750/203524094-ba955916-1c93-4a36-b5b1-37cc0c7dc0ba.jpg)
 
-<sub>Puedes volver al [índice](#indice) de este archivo, volver al archivo [Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos), o continuar leyendo esta página.</sub>
+<sub>[Selectores, Pseudoclases y Pseudoelementos](../README.md#selectores,-pseudoclases-y-pseudoelementos) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>

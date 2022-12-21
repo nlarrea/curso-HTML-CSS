@@ -19,12 +19,18 @@ El contenido de las tablas no es nada extenso, por lo que su contenido básico s
   * [`<output>`](#output)
 * [`TABLAS`](#tabla)
 
+<br>
+
+[<< TEMA 1](../01-Etiquetas_y_atributos/README.md#etiquetas-y-atributos) | [TEMA 3 >>](../03-Imagenes/README.md#contenido-multimedia)
+
 
 <br><hr>
 <hr><br>
 
 
 <h2 id="form">Formularios</h2>
+
+<sub>* [Ver código](./formularios.html)</sub>
 
 Antes de comenzar, convendría saber qué es un formulario, o qué aspecto suelen tener. Por ello, a continuación se muestra una imagen con el ejempli de uno de ellos:
 
@@ -66,9 +72,9 @@ He aquí un ejemplo sencillo de un par de elementos de este tipo:
 
 <br>
 
-Como ya se ha mencionado, existen muchísitmos tipos de inputs distintos, todos ellos serán explicados a lo largo de [esta guía](README-inputTypes.md). Además, también se dispone de [esta otra guía](README-inputAtrib.md) donde se mostrarán cuáles son los atributos más usados. Haz clic en dicho enlace para acceder a la página correspondiente.
+Como ya se ha mencionado, existen muchísitmos tipos de inputs distintos, todos ellos serán explicados a lo largo de [esta guía](README-inputTypes.md#tipos-de-inputs). Además, también se dispone de [esta otra guía](README-inputAtrib.md#atributos-de-los-inputs) donde se mostrarán cuáles son los atributos más usados. Haz clic en dicho enlace para acceder a la página correspondiente.
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -101,7 +107,7 @@ Este sería su resultado:
 
 Gracias a este código, el usuario puede seleccionar la casilla haciendo clic en el texto que la acompaña en lugar de tener que clicar esplícitamente en la propia casilla.
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -138,7 +144,7 @@ Como se puede ver, por defecto está seleccionada la primera de las opciones. Si
 
 Este elemento también permite atributos como `size` y `multiple`. Ambos están explicados en [esta guía](README-inputAtrib.md).
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -166,7 +172,7 @@ Este sería el resultado del código:
 
 <br>
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -196,7 +202,7 @@ He aquí el resultado del botón:
 
 <br>
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -228,7 +234,7 @@ Este es el resultado del código mostrado:
 
 <br>
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -262,7 +268,7 @@ Este sería el resultado de dicho código:
 
 <br>
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -293,7 +299,7 @@ Este sería el resultado del código:
 
 <br>
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice) | [Tablas](#tabla)</sub>
 
 
 <br><hr>
@@ -301,6 +307,8 @@ Este sería el resultado del código:
 
 
 <h2 id="tabla">Tablas</h2>
+
+<sub>* [Ver código](./tablas.html)</sub>
 
 Las tablas en HTML se definen usando las etiquetas `<table>` y `</table>`. Dentro de éstas, habrá que ir definiendo los siguientes elementos de la tabla, siempre teniendo en cuenta que se crean utilizando etiquetas para definir el contenido de las filas. Para crear una nueva fila, se deben usar `<tr>` y `</tr>`.
 
@@ -339,7 +347,11 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver al índice de esta guía haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
+
+<br>
+
+[<< TEMA 1](../01-Etiquetas_y_atributos/README.md#etiquetas-y-atributos) | [TEMA 3 >>](../03-Imagenes/README.md#contenido-multimedia)
 
 
 <br><hr>

@@ -16,7 +16,9 @@ En este apartado se hablará de la propiedad `display` de CSS.
 * [grid](#grid)
 * [inline-grid](#inline-grid)
 
-<sub>* Puedes volver al archivo de Disposición, Posicionamiento y Overflow haciendo clic [aquí](../README.md).</sub>
+<br>
+
+[<< Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow)
 
 
 <br><hr>
@@ -58,7 +60,7 @@ He aquí el resultado de dicho código:
 
 ![1-none](https://user-images.githubusercontent.com/110897750/202165823-927079f9-11e1-4a39-993f-465daf73e3d4.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -99,7 +101,7 @@ En esta ocasión sí se puede ver el contenido del `<span>`:
 
 ![2-inline](https://user-images.githubusercontent.com/110897750/202165826-70c7b4a6-6c1f-41b7-82c7-c963a78199ed.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -139,7 +141,7 @@ Sin haber modificado el código del archivo HTML, pero cambiando la disposición
 
 ![3-block](https://user-images.githubusercontent.com/110897750/202165829-b98134f3-9cd5-4197-b853-46f660033805.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -188,7 +190,7 @@ Este es el resultado:
 
 Como se puede observar, el texto resaltado tiene una altura mayor a la que ocupa una línea, por lo que la primera línea del párrafo, a la que pertenece dicho *"Hello World"*, tiene una nueva altura y empuja a las demás hacia abajo.
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -248,7 +250,7 @@ Este es el resultado de dicho código:
 
 ![5-table](https://user-images.githubusercontent.com/110897750/202165834-54944b8e-dedf-4770-a516-d146696dcbde.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -306,7 +308,7 @@ A pesar del pequeño cambio, se puede apreciar cómo los dos `span` se han despl
 
 ![6-table-cell](https://user-images.githubusercontent.com/110897750/202165836-b29d55a5-a852-4acf-9211-093d226ec4ae.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -362,7 +364,7 @@ En esta ocasión, el contenido vuelve a juntarse. Esto se debe a que se concentr
 
 ![7-table-row](https://user-images.githubusercontent.com/110897750/202165839-93af48be-9b46-4ada-9fbc-f67a30244558.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -426,7 +428,7 @@ Este es el resultado del código:
 
 ![8-flex](https://user-images.githubusercontent.com/110897750/202165845-41b08e0b-c873-44ba-9bf2-86372fb2b74a.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -490,7 +492,7 @@ En este caso, el contenedor y los tres elemendos se encuentran insertados en el 
 
 ![9-inline-flex](https://user-images.githubusercontent.com/110897750/202165846-2323140c-5741-4f15-9572-bb93634024b7.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -556,7 +558,7 @@ Este es el resultado:
 
 ![10-grid](https://user-images.githubusercontent.com/110897750/202165848-d4725bd8-2895-4eca-852b-e4672147aeeb.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -621,7 +623,7 @@ Este es el resultado:
 
 ![11-inline-grid](https://user-images.githubusercontent.com/110897750/202165851-6b8c1e3e-b932-49dc-89c0-423ae5ccb9f4.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>

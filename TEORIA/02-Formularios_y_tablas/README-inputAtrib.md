@@ -22,6 +22,10 @@ Puede parecer una guía repetitiva, por ello, está planteada más como guía pu
 * [list](#list)
 * [autocomplete](#autocomplete)
 
+<br>
+
+[<< FORMULARIOS Y TABLAS](./README.md#formularios-y-tablas) | [INPUTS >>](./README-inputTypes.md#tipos-de-inputs)
+
 
 <br><hr>
 
@@ -48,7 +52,7 @@ He aquí el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -78,7 +82,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -108,7 +112,7 @@ He aquí el resultado del ejemplo:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -145,7 +149,7 @@ Aquí se muestra el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -175,7 +179,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -215,7 +219,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -248,7 +252,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -290,7 +294,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -329,7 +333,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -373,7 +377,7 @@ Este sería el resultado:
 
 A simple vista, no se aprecia la diferencia entre tener dicho requisito o no, ambos campos se ven iguales. Pero si el campo con el atributo `required` no está especificado, no permitirá enviar el formulario.
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -411,7 +415,7 @@ Este sería el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -441,7 +445,7 @@ Este es el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -469,7 +473,7 @@ Este es el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -501,7 +505,7 @@ He aquí el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md), o continuar leyendo esta guía.</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>
@@ -543,7 +547,7 @@ Este es el resultado:
 
 <br>
 
-<sub>* Puedes volver desde [aquí](#indice) al índice de atributos, [volver a la página de formularios principal](README.md).</sub>
+<sub>[<< Formularios y tablas](README.md#formularios-y-tablas) | [Volver al índice](#indice) | [Inputs >>](./README-inputTypes.md)</sub>
 
 
 <br><hr>

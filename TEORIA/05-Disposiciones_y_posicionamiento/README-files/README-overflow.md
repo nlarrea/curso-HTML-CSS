@@ -13,7 +13,9 @@ En esta parte de la guía se va a hablar de cómo permitir o no que los elemento
 * [overflow-wrap](#overflow-wrap)
 * [text-overflow](#text-overflow)
 
-<sub>* Si lo deseas, puedes volver al archivo de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<br>
+
+[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow)
 
 
 <br><hr><br>
@@ -75,7 +77,7 @@ Este es el resultado:
 
 ![1-overflow_visible](https://user-images.githubusercontent.com/110897750/202437173-ac36bced-360f-4eb1-9a24-2c7d50a00ddc.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -99,7 +101,7 @@ Este es el resultado:
 
 ![2-overflow_hidden](https://user-images.githubusercontent.com/110897750/202437176-0d1fcd06-6886-4e66-a6c3-543429629c68.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -123,7 +125,7 @@ Este es el resultado:
 
 ![3-overflow_scroll](https://user-images.githubusercontent.com/110897750/202437178-835d0e9a-f2fd-4957-8dea-0b582b5a8cd2.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -147,7 +149,7 @@ Este es el resultado:
 
 ![4-overflow_auto](https://user-images.githubusercontent.com/110897750/202437180-100203b8-3042-4702-90da-1e5db2c791c9.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -173,7 +175,7 @@ Esto permite definir diferentes valores de overflow para cada uno de los ejes, s
 
 En este caso, la **diferencia entre *scroll* y *auto*** consiste en que `scroll` siempre mostrará la barra (horizontal o vertical) y auto la mostrará solo cuando sea necesaria.
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -228,7 +230,7 @@ Se consigue que la palabra se *"rompa"* y salte a la siguiente línea:
 
 ![6-overflow-wrap_break-word](https://user-images.githubusercontent.com/110897750/202437184-ee93e6ff-3fc4-4357-b57a-3c54d09b89ca.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -275,7 +277,7 @@ Esto es lo que se consigue:
 
 ![7-text-overflow](https://user-images.githubusercontent.com/110897750/202437185-dd2ebfde-cb1d-48d6-baed-3de414619224.jpg)
 
-<sub>* Puedes volver al índice de la página haciendo clic [aquí](#indice). De lo contrario, puedes [volver al archivo de Disposición, Posicionamiento y Overflow](../README.md), o continuar leyendo esta página.</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md#disposición-posicionamiento-y-overflow) | [Volver al índice](#indice)</sub>
 
 
 <br><hr>

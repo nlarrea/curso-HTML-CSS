@@ -16,7 +16,9 @@ Ya se ha mencionado en el archivo de [Disposiciones](README-display.md) que el e
   * [flex-shrink](#flex-shrink)
   * [order](#order)
 
-<sub>* Puedes volver al archivo de [Disposiciones](README-display.md) o al de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<br>
+
+[Disposición, Posicionamiento y Overflow](../README.md) | [Disposiciones](README-display.md)
 
 
 <br><hr><br>
@@ -158,7 +160,7 @@ Resultado del código:
 
 ![4-flex-direction_column-reverse](https://user-images.githubusercontent.com/110897750/202166442-a5bef6f5-3845-4ab6-b4c3-39973d673660.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -238,7 +240,7 @@ Resultado del código:
 
 ![7-flex-wrap_wrap-reverse](https://user-images.githubusercontent.com/110897750/202166449-767232ba-7a81-4bf9-9ddf-bc035775307e.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -414,7 +416,7 @@ Este es el resultado del código:
 
 ![12-align-items_stretch](https://user-images.githubusercontent.com/110897750/202166464-5a6cad0e-906d-4b65-9f8a-783ccbb3a091.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -530,7 +532,7 @@ Este es el resultado:
 
 ![17-justify-content_space-evenly](https://user-images.githubusercontent.com/110897750/202166476-dd48f9fe-c548-43a6-98e2-6e242be6cd03.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -694,7 +696,7 @@ Este es el resultado:
 
 ![23-align-content_space-evenly](https://user-images.githubusercontent.com/110897750/202166491-5e112b58-9d95-406d-a5da-db5dafa8c0b0.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -886,7 +888,7 @@ Este es el resultado del código:
 
 ![6-align-self_stretch](https://user-images.githubusercontent.com/110897750/202167294-5e977aa9-6591-4193-9ee3-57133a5af860.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -934,7 +936,7 @@ Este es el resultado:
 
 ![7-flex-grow](https://user-images.githubusercontent.com/110897750/202167295-4e3b4016-9177-4eb6-b746-98fe1ef32890.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -977,7 +979,7 @@ Este es el resultado:
 
 ![8-flex-shrink](https://user-images.githubusercontent.com/110897750/202167298-0a2d9e5f-5fcd-428f-ac3d-e6fd4b75969c.jpg)
 
-<sub>* Puedes volver al [índice](#indice), al archivo de [Disposiciones](README-display.md) o al archivo principal de [Disposición, Posicionamiento y Overflow](../README.md).</sub>
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>
@@ -1026,6 +1028,8 @@ Este sería el código CSS utilizado:
 Este sería el resultado:
 
 ![9-order](https://user-images.githubusercontent.com/110897750/202167299-13de652b-71d3-4d24-b19b-ec6040376c47.jpg)
+
+<sub>[Disposición, Posicionamiento y Overflow](../README.md) | [Volver al índice](#indice) | [Disposiciones](README-display.md)</sub>
 
 
 <br><hr>

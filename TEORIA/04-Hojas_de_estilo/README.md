@@ -13,6 +13,13 @@ En este tema se hablará de las hojas de estilo, las cuales nos permiten modific
   * [Background](#background)
   * [Textos](#texts)
 
+<br>
+
+<sub>* [Ver código](./)</sub>
+
+[<< TEMA 3](../03-Imagenes/README.md#contenido-multimedia) | [TEMA 5 >>](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
+
+
 <br><hr>
 <hr><br>
 
@@ -84,7 +91,7 @@ h1 {
 
 Si se utilizaran los tres ejemplos mostrados a la vez, cada uno con un color, el color mostrado sería el del ejemplo 1, puesto que es el que más especificidad tiene. Si ese no estuviera, se mostraría el del caso 2, y así sucesivamente.
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -118,7 +125,7 @@ Este sería el resultado:
 
 ![2-width-height](https://user-images.githubusercontent.com/110897750/197635047-49bfdd3c-ce6e-4b8b-9467-64b31473682a.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -231,7 +238,7 @@ Aquí se muestra un ejemplo de un texto rodeado con un borde al que se le ha cam
 
 ![3-border](https://user-images.githubusercontent.com/110897750/197635050-82d0be71-dd8e-4e54-b6b3-c027f4e1f768.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -257,7 +264,7 @@ Se puede utilizar también `margin` sin especificar el lado y añadir hasta 4 va
 * `margin: 10px 20px 30px`: añade 10px arriba, 20px a la izquierda y derecha, y 30px abajo.
 * `margin: 10px 20px 30px 40px`: añade 10px arriba, 20px a la derecha, 30px abajo y 40px a la izquierda.
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -269,7 +276,7 @@ El padding se utiliza para **añadir el espacio** deseado en la parte de dentro 
 
 Lo ya visto en el punto anterior de márgenes es aplicable aquí también, pero haciendo uso de `padding` en lugar de `margin`.
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -387,7 +394,7 @@ Este sería el resultado:
 
 ![4-attachment](https://user-images.githubusercontent.com/110897750/197635300-bdaf9fbe-8de8-436a-aa62-1ef22e7e25b9.jpg)
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
 
 
 <br><hr>
@@ -518,7 +525,11 @@ Existen muchas propiedades para dar espacio al texto, he aquí un resumen de las
 * `word-spacing`: esta propiedad permite aumentar o disminuir el espacio entre las palabras de un texto.
 * `white-space`: esta propiedad permite que un texto se mantenga en una sola línea o se divida en varias al no caber en su *contenedor* o la pantalla.
 
-<sub>* Si quieres puedes volver al índice de la página haciendo clic [aquí](#indice)</sub>
+<sub>[Volver al índice](#indice)</sub>
+
+<br>
+
+[<< TEMA 3](../03-Imagenes/README.md#contenido-multimedia) | [TEMA 5 >>](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
 
 
 <br><hr>
