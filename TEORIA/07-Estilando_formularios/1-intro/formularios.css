@@ -1,5 +1,20 @@
-.input {
+form {
+    width: 40vw;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input-wrapper {
     width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input {
+    width: 30%;
     padding: 5px 10px;
     margin-bottom: 10px;
     border: 2px solid green;
@@ -13,6 +28,8 @@
     outline: none;
 }
 
+/* INPUT "MODERNO" */
+
 .input-moderno {
     border: none;
     border-bottom: 1px solid #c2c2c2;
@@ -21,12 +38,16 @@
     margin-bottom: 10px;
     color: #5f5f5f;
 }
+
 .input-moderno::placeholder{
     color: #c2c2c2;
 }
+
 .input-moderno:focus{
     border-bottom: 1px solid #5f5f5f;
 }
+
+/* CAMBIAR EL BACKGROUND */
 
 .input-background {
     background-color: aquamarine;
@@ -37,6 +58,7 @@
     outline: none;
     box-shadow: 0 0 10px #ccc;
 }
+
 .input-background::placeholder{
     color: #777;
 }
@@ -48,7 +70,7 @@
     border: none;
     border-radius: 8px;
     background-color: #eee;
-    background-image: url('../img/searchicon.png');
+    background-image: url('./img/searchicon.png');
     background-size: 20px; /* tamaño de la imagen añadida */
     background-repeat: no-repeat; /* para que la imagen no se repita rellenando los huecos */
     background-position: 5px; /* distancia hacia la derecha */

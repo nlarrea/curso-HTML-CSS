@@ -33,7 +33,7 @@ Estos son los lenguajes utilizados a lo largo de este curso, te dejo un link con
 * **#04** - [HOJAS DE ESTILOS](./TEORIA/04-Hojas_de_estilo/README.md#introducción-a-css)
 * **#05** - [DISPOSICIONES, POSICIONAMIENTO Y OVERFLOW](./TEORIA/05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
 * **#06** - [SELECTORES](./TEORIA/06-Selectores/README.md#selectores-pseudoclases-y-pseudoelementos)
-* **#07** - [ESTILANDO FORMULARIOS](./TEORIA/07-Estilando_formularios/)
+* **#07** - [ESTILANDO FORMULARIOS](./TEORIA/07-Estilando_formularios/README.md#estilar-formularios)
 * **#08** - [INTRODUCCIÓN A BOOTSTRAP](./TEORIA/08-Bootstrap/)
 * **#09** - [ANIMACIONES Y TRANSICIONES](./TEORIA/09-Animaciones_y_transiciones/)
 * **#10** - [DISEÑO RESPONSIVE](./TEORIA/10-Dise%C3%B1o_responsive/)

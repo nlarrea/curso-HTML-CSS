@@ -21,7 +21,7 @@ En este apartado se va a hablar de los selectores, pseudoclases y pseudoelemento
 
 <br>
 
-[<< TEMA 5](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
+[<< TEMA 5](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow) | [TEMA 7 >>](../07-Estilando_formularios/README.md#estilar-formularios)
 
 
 <br><hr>

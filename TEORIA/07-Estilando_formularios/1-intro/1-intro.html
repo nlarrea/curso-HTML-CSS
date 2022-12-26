@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilando formularios</title>
-    <link rel="stylesheet" href="../css/formularios.css">
+    <link rel="stylesheet" href="./formularios.css">
 </head>
 <body>
     <!-- Creamos un formulario: -->
     <form action="" method="">
-        <input class="input" type="text" name="name"/> <!-- input de tipo texto -->
-        <input class="input" type="password" name="name"/> <!-- input de tipo contraseña -->
+        <div class="input-wrapper">
+            <label for="name">Usuario:</label>
+            <input class="input input-name" type="text" id="name"/> <!-- input de tipo texto -->
+            <label for="pass">Contraseña:</label>
+            <input class="input input-password" type="password" id="pass"/> <!-- input de tipo contraseña -->
+        </div>
         <!-- input para modificar con un diseño moderno: -->
-        <input class="input-moderno" type="text" name="name" placeholder="Tu nombre"/><br>
+        <input class="input-moderno" type="text" placeholder="Tu nombre"/><br>
         <!-- input para modificar el color de fondo y añadirle sombras: -->
-        <input class="input-background" type="text" name="name" placeholder="Escribe algo"/><br>
+        <input class="input-background" type="text" placeholder="Escribe algo"/><br>
         <!-- input para añadirle una imagen de fondo: -->
-        <input class="input-search" type="text" name="name" placeholder="Buscar"/><br>
+        <input class="input-search" type="text" placeholder="Buscar"/><br>
         <!-- área de texto: -->
         <textarea name="descripcion" placeholder="Danos tu opinión"></textarea><br>
         <!-- selector de opciones: -->
