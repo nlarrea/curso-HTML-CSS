@@ -1,9 +1,9 @@
 # Curso-HTML-CSS
 
-[![GitHub language count](https://img.shields.io/github/languages/count/NLarrea/Curso-HTML-CSS?style=flat-square)](#lenguajes-utilizados)
-[![GitHub top language](https://img.shields.io/github/languages/top/NLarrea/Curso-HTML-CSS?style=flat-square)](#lenguajes-utilizados)
-[![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/NLarrea/Curso-HTML-CSS/df80e6c07fc79467d97f6a672190c9d53e81ba47?label=commits%20counter&style=flat-square)](https://github.com/NLarrea/Curso-HTML-CSS/commits/main)
-[![GitHub last commit](https://img.shields.io/github/last-commit/NLarrea/Curso-HTML-CSS?style=flat-square)](https://github.com/NLarrea/Curso-HTML-CSS/commits/main)
+[![GitHub language count](https://img.shields.io/github/languages/count/nlarrea/Curso-HTML-CSS?style=flat-square&labelColor=181717&color=018ef5)](#lenguajes-utilizados)
+[![GitHub top language](https://img.shields.io/github/languages/top/nlarrea/Curso-HTML-CSS?style=flat-square&labelColor=181717&color=018ef5)](#lenguajes-utilizados)
+[![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/NLarrea/Curso-HTML-CSS/df80e6c07fc79467d97f6a672190c9d53e81ba47?label=commits%20counter&style=flat-square&labelColor=181717&color=006c67)](https://github.com/nlarrea/Curso-HTML-CSS/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/nlarrea/Curso-HTML-CSS?style=flat-square&labelColor=181717&color=006c67)](https://github.com/NLarrea/Curso-HTML-CSS/commits/main)
 
 ## ¿Qué es esto?
 
@@ -56,3 +56,17 @@ Estos son los lenguajes utilizados a lo largo de este curso, te dejo un link con
 	</a>
 </div>
 
+
+<br><hr>
+<hr><br>
+
+
+# Contacto
+
+<div align="center">
+
+[![Twitter](https://img.shields.io/badge/Twitter-@nlarrea__-1DA1F2?style=flat-square&logo=Twitter&logoColor=white&labelColor=181717&label)](https://twitter.com/nlarrea_) &emsp;
+[![Instagram](https://img.shields.io/badge/Instagram-@n.loust-E4405F?style=flat-square&logo=Instagram&logoColor=white&labelColor=181717&label)](https://www.instagram.com/n.loust/) &emsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Naia%20Larrea-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white&labelColor=181717&label)](https://www.linkedin.com/in/naia-larrea/)
+
+</div>
