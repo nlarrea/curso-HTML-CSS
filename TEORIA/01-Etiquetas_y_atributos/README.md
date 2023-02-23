@@ -2,23 +2,25 @@
 
 En este apartado de teoría se tratarán los siguientes temas:
 
-* [DOCUMENTOS HTML](#docs)
-* [ENCABEZADOS](#hX)
-* [PÁRRAFOS](#p)
+* [DOCUMENTOS HTML](#documentos-html)
+* [ENCABEZADOS](#encabezados)
+* [PÁRRAFOS](#párrafos)
 * [LINKS](#links)
-* [LISTAS](#lists)
+* [LISTAS](#listas)
 
 <br>
 
 <sub>* [Ver código](mi-primera-pagina-web.html)</sub>
 
-[EJERCICIOS](../../EJERCICIOS/) | [TEMA 2 >>](../02-Formularios_y_tablas/README.md#formularios-y-tablas)
+[EJERCICIOS](../../EJERCICIOS/) | [INICIO](../../README.md#temario-del-curso---teoria) | [TEMA 2 >>](../02-Formularios_y_tablas/README.md#formularios-y-tablas)
 
 
 <br><hr>
 <hr><br>
 
-<h2 id="docs">Documentos HTML</h2>
+
+## Documentos HTML
+
 A la hora de crear un documento HTML deben tenerse en cuenta los siguientes puntos:
 
 * Todos los documentos HTML deben comenzar con la declaración: `<!DOCTYPE html>`.
@@ -26,9 +28,12 @@ A la hora de crear un documento HTML deben tenerse en cuenta los siguientes punt
 * La información del propio documento está definida entre la etiqueta de apertura `<head>` y la de cierre `</head>`.
 * La parte visible de la página web, se verá reflejada dentro de las etiquetas `<body>` y `</body>`.
 
-<br><hr><br>
 
-<h2 id="hX">Encabezados</h2>
+<br><hr>
+<hr><br>
+
+
+## Encabezados
 
 Los encabezados están definidos por las etiquetas "hX", donde X es un índice del 1 al 6. Por ello, las etiquetas comienzan en `<h1>` y finalizan en `<h6>`. De esta manera, las etiquetas con un menor índice son las más importantes de todas, e irán perdiendo importancia a medida que su índice se vuelva mayor, he aquí un ejemplo:
 
@@ -47,9 +52,12 @@ La salida se ve así:
 
 <img src="https://user-images.githubusercontent.com/110897750/195821658-5cfed9f8-01b5-445b-813e-3b933d99c754.jpg" alt="foto-encabezados">
 
-<br><hr><br>
 
-<h2 id="p">Párrafos</h2>
+<br><hr>
+<hr><br>
+
+
+## Párrafos
 
 Los párrafos en HTML están delimitados por las etiquetas `<p>` y `</p>`.
 
@@ -60,9 +68,12 @@ He aquí un ejemplo de la sintáxis:
 <p>Esto es otro párrafo</p>
 ```
 
-<br><hr><br>
 
-<h2 id="links">Links</h2>
+<br><hr>
+<hr><br>
+
+
+## Links
 
 Los links se crean con las etiquetas `<a>` y `</a>`. El texto o elemento contenido entre la etiqueta de apertura y de cierre, será aquello que el usuario deberá clicar para acceder al enlace definido.
 
@@ -78,9 +89,12 @@ El link se vería de la siguiente manera:
 
 <a href="https://github.com/NLarrea">Esto es un link</a>
 
-<br><hr><br>
 
-<h2 id="lists">Listas</h2>
+<br><hr>
+<hr><br>
+
+
+## Listas
 
 Existen dos tipos de listas:
 
@@ -115,4 +129,4 @@ Este sería el resultado de dicho código:
 <br><hr>
 <hr><br>
 
-[EJERCICIOS](../../EJERCICIOS/) | [INICIO]() | [TEMA 2 >>](../02-Formularios_y_tablas/README.md#formularios-y-tablas)
+[EJERCICIOS](../../EJERCICIOS/) | [INICIO](../../README.md#temario-del-curso---teoria) | [TEMA 2 >>](../02-Formularios_y_tablas/README.md#formularios-y-tablas)

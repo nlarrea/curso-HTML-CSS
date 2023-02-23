@@ -17,7 +17,7 @@ En este tema se hablará de las hojas de estilo, las cuales nos permiten modific
 
 <sub>* [Ver código](./)</sub>
 
-[<< TEMA 3](../03-Imagenes/README.md#contenido-multimedia) | [TEMA 5 >>](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
+[<< TEMA 3](../03-Imagenes/README.md#contenido-multimedia) | [INICIO](../../README.md#temario-del-curso---teoria) | [TEMA 5 >>](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
 
 
 <br><hr>
@@ -527,21 +527,9 @@ Existen muchas propiedades para dar espacio al texto, he aquí un resumen de las
 
 <sub>[Volver al índice](#indice)</sub>
 
-<br>
-
-[<< TEMA 3](../03-Imagenes/README.md#contenido-multimedia) | [TEMA 5 >>](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
-
-
-<br><hr>
 <hr><br>
+<br><hr>
+
+[<< TEMA 3](../03-Imagenes/README.md#contenido-multimedia) | [INICIO](../../README.md#temario-del-curso---teoria) | [TEMA 5 >>](../05-Disposiciones_y_posicionamiento/README.md#disposición-posicionamiento-y-overflow)
 
 
-# Contacto
-
-Si tienes alguna duda o sugerencia acerca del contenido de este documento o cualquier otro asunto, no dudes en contactar conmigo:
-
-<div align="center">
-&emsp;<a href="https://twitter.com/nloust_"><img width="16" alt="twitter_logo" src="https://user-images.githubusercontent.com/110897750/195668304-54d1fbb3-bea1-4f9d-9ee7-7e494bd79013.png"> @nloust_</a> <!-- twitter: -->
-&emsp;<a href="https://www.instagram.com/n.loust/"><img width="16" alt="instagram_logo" src="https://seeklogo.com/images/I/instagram-new-2016-logo-4773FE3F99-seeklogo.com.png"> @n.loust</a> <!-- instagram: -->
-&emsp;<a href="https://www.linkedin.com/in/naia-larrea/"><img width="16" alt="linkedin_logo" src="https://user-images.githubusercontent.com/110897750/195669519-30e44b5d-4bef-47d3-9e37-81cff0ee5e55.png"> Naia Larrea</a> <!-- linkedin: -->
-</div>
