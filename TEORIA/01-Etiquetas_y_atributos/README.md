@@ -80,14 +80,14 @@ Los links se crean con las etiquetas `<a>` y `</a>`. El texto o elemento conteni
 Para añadir un link, se debe utilizar el atributo `href`, indicándole a qué enlace se quiere acceder tras clicar en él. Estas referencias pueden ser externas o internas, donde se puede acceder a elementos del propio documento haciendo referencia del id de un elemento, por ejemplo.
 
 ```HTML
-<a href="https://github.com/NLarrea">Esto es un link</a>
+<a href="https://nlarrea-links.vercel.app/">Esto es un link</a>
 ```
 
 <br>
 
 El link se vería de la siguiente manera:
 
-<a href="https://github.com/NLarrea">Esto es un link</a>
+<a href="https://nlarrea-links.vercel.app/">Esto es un link</a>
 
 
 <br><hr>
